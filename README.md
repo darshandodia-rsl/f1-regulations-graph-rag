@@ -2,6 +2,8 @@
 
 A smart search over the FIA 2026 F1 Sporting Regulations (Section B, Issue 09) built with GraphRAG. For a question, it gives an AI-generated answer, the clauses that answer cites, and other clauses found through vector search and the graph. It was built mainly to learn GraphRAG.
 
+Sample Output -> [Link](https://drive.google.com/drive/folders/19kc-ziJURzN1whrYJp_S3taOsBzDesAo?usp=sharing)
+
 ## Inputs and outputs
 
 - **Regulations:** The source is the regulations PDF (`docs/raw-document/FIA 2026 F1 Regulations Section B.pdf`), parsed into 410 provisions (15 articles, 64 sections, 331 clauses) and 24 glossary terms (`data/parsed/`).
