@@ -1,0 +1,790 @@
+{
+ "article": "B2",
+ "mentions": [
+  {
+   "clause_id": "B2.1.1",
+   "entities": [
+    "standard format competition",
+    "free practice",
+    "fp1",
+    "fp2",
+    "fp3",
+    "in-competition tyre testing",
+    "tyre"
+   ]
+  },
+  {
+   "clause_id": "B2.1.2",
+   "entities": [
+    "alternative format competition",
+    "free practice",
+    "fp1"
+   ]
+  },
+  {
+   "clause_id": "B2.1.3",
+   "entities": [
+    "free practice classification",
+    "free practice",
+    "driver",
+    "control line",
+    "pit lane"
+   ]
+  },
+  {
+   "clause_id": "B2.2.1",
+   "entities": [
+    "alternative format competition",
+    "sprint",
+    "starting grid",
+    "sprint qualifying",
+    "fp1"
+   ]
+  },
+  {
+   "clause_id": "B2.2.2",
+   "entities": [
+    "sprint qualifying",
+    "sq1",
+    "sq2",
+    "sq3",
+    "f1 car",
+    "track"
+   ]
+  },
+  {
+   "clause_id": "B2.2.3",
+   "entities": [
+    "sprint qualifying classification",
+    "sprint qualifying",
+    "sq1",
+    "sq2",
+    "sq3",
+    "driver",
+    "unclassified driver",
+    "race director",
+    "wet track declaration",
+    "steward",
+    "disqualification",
+    "fp1",
+    "control line",
+    "f1 car",
+    "competition",
+    "championship"
+   ]
+  },
+  {
+   "clause_id": "B2.3.1",
+   "entities": [
+    "alternative format competition",
+    "sprint"
+   ]
+  },
+  {
+   "clause_id": "B2.3.2",
+   "entities": [
+    "sprint",
+    "start signal",
+    "chequered flag",
+    "formation lap behind safety car",
+    "safety car"
+   ]
+  },
+  {
+   "clause_id": "B2.3.3",
+   "entities": [
+    "sprint",
+    "chequered flag",
+    "leader",
+    "control line",
+    "suspension"
+   ]
+  },
+  {
+   "clause_id": "B2.3.4",
+   "entities": [
+    "grid formation",
+    "penalty",
+    "steward",
+    "drivers' championship classification",
+    "driver",
+    "grid place penalty",
+    "unclassified driver",
+    "starting grid",
+    "competitor",
+    "f1 car",
+    "formation lap",
+    "sprint",
+    "sprint qualifying",
+    "sprint qualifying classification"
+   ]
+  },
+  {
+   "clause_id": "B2.3.5",
+   "entities": [
+    "sprint classification",
+    "sprint",
+    "f1 car",
+    "control line",
+    "international sporting code",
+    "fia f1 regulations"
+   ]
+  },
+  {
+   "clause_id": "B2.4.1",
+   "entities": [
+    "qualifying",
+    "race",
+    "starting grid",
+    "standard format competition",
+    "alternative format competition",
+    "fp3",
+    "sprint"
+   ]
+  },
+  {
+   "clause_id": "B2.4.2",
+   "entities": [
+    "qualifying",
+    "q1",
+    "q2",
+    "q3",
+    "f1 car",
+    "track"
+   ]
+  },
+  {
+   "clause_id": "B2.4.3",
+   "entities": [
+    "qualifying classification",
+    "qualifying",
+    "q1",
+    "q2",
+    "q3",
+    "driver",
+    "unclassified driver",
+    "race director",
+    "wet track declaration",
+    "steward",
+    "disqualification",
+    "lap time classified session",
+    "control line",
+    "f1 car",
+    "competition",
+    "championship"
+   ]
+  },
+  {
+   "clause_id": "B2.5.1",
+   "entities": [
+    "race",
+    "competition"
+   ]
+  },
+  {
+   "clause_id": "B2.5.2",
+   "entities": [
+    "race",
+    "start signal",
+    "chequered flag",
+    "formation lap behind safety car",
+    "safety car",
+    "monaco"
+   ]
+  },
+  {
+   "clause_id": "B2.5.3",
+   "entities": [
+    "race",
+    "chequered flag",
+    "leader",
+    "control line",
+    "suspension"
+   ]
+  },
+  {
+   "clause_id": "B2.5.4",
+   "entities": [
+    "grid formation",
+    "penalty",
+    "steward",
+    "drivers' championship classification",
+    "driver",
+    "grid place penalty",
+    "unclassified driver",
+    "starting grid",
+    "competitor",
+    "f1 car",
+    "formation lap",
+    "race",
+    "qualifying",
+    "qualifying classification"
+   ]
+  },
+  {
+   "clause_id": "B2.5.5",
+   "entities": [
+    "race classification",
+    "race",
+    "f1 car",
+    "control line",
+    "international sporting code",
+    "fia f1 regulations"
+   ]
+  }
+ ],
+ "relationships": [
+  {
+   "subject": "standard format competition",
+   "relation": "HAS_PART",
+   "object": "fp1",
+   "context": "1 h each",
+   "source_ids": [
+    "B2.1.1"
+   ]
+  },
+  {
+   "subject": "standard format competition",
+   "relation": "HAS_PART",
+   "object": "fp3",
+   "context": "1 h each",
+   "source_ids": [
+    "B2.1.1"
+   ]
+  },
+  {
+   "subject": "standard format competition",
+   "relation": "HAS_PART",
+   "object": "fp2",
+   "context": "1 h, or 1.5 h if extra ICTT tyre specifications are provided",
+   "source_ids": [
+    "B2.1.1"
+   ]
+  },
+  {
+   "subject": "fp1",
+   "relation": "TYPE_OF",
+   "object": "free practice",
+   "context": null,
+   "source_ids": [
+    "B2.1.1",
+    "B2.1.2"
+   ]
+  },
+  {
+   "subject": "fp2",
+   "relation": "TYPE_OF",
+   "object": "free practice",
+   "context": null,
+   "source_ids": [
+    "B2.1.1"
+   ]
+  },
+  {
+   "subject": "fp3",
+   "relation": "TYPE_OF",
+   "object": "free practice",
+   "context": null,
+   "source_ids": [
+    "B2.1.1"
+   ]
+  },
+  {
+   "subject": "fp1",
+   "relation": "PRECEDES",
+   "object": "fp2",
+   "context": "same day, separated by 2 to 3 h",
+   "source_ids": [
+    "B2.1.1"
+   ]
+  },
+  {
+   "subject": "fp2",
+   "relation": "PRECEDES",
+   "object": "fp3",
+   "context": "FP3 starts at least 18 h after FP2 ends (17.5 h with ICTT)",
+   "source_ids": [
+    "B2.1.1"
+   ]
+  },
+  {
+   "subject": "alternative format competition",
+   "relation": "HAS_PART",
+   "object": "fp1",
+   "context": "the only free practice session; 1 h on the first day",
+   "source_ids": [
+    "B2.1.2"
+   ]
+  },
+  {
+   "subject": "free practice",
+   "relation": "DETERMINES",
+   "object": "free practice classification",
+   "context": "fastest lap; ties go to whoever set the time first; laps must start and finish at the control line on track, not in the pit lane",
+   "source_ids": [
+    "B2.1.3"
+   ]
+  },
+  {
+   "subject": "alternative format competition",
+   "relation": "HAS_PART",
+   "object": "sprint qualifying",
+   "context": null,
+   "source_ids": [
+    "B2.2.1"
+   ]
+  },
+  {
+   "subject": "sprint qualifying",
+   "relation": "DETERMINES",
+   "object": "sprint",
+   "context": "sets the Sprint starting grid",
+   "source_ids": [
+    "B2.2.1"
+   ]
+  },
+  {
+   "subject": "fp1",
+   "relation": "PRECEDES",
+   "object": "sprint qualifying",
+   "context": "SQ starts 2.5 to 3.5 h after FP1 ends, first day",
+   "source_ids": [
+    "B2.2.1"
+   ]
+  },
+  {
+   "subject": "sprint qualifying",
+   "relation": "HAS_PART",
+   "object": "sq1",
+   "context": "12 min; slowest six eliminated",
+   "source_ids": [
+    "B2.2.2"
+   ]
+  },
+  {
+   "subject": "sprint qualifying",
+   "relation": "HAS_PART",
+   "object": "sq2",
+   "context": "10 min; slowest six eliminated",
+   "source_ids": [
+    "B2.2.2"
+   ]
+  },
+  {
+   "subject": "sprint qualifying",
+   "relation": "HAS_PART",
+   "object": "sq3",
+   "context": "8 min; remaining ten cars",
+   "source_ids": [
+    "B2.2.2"
+   ]
+  },
+  {
+   "subject": "sq1",
+   "relation": "PRECEDES",
+   "object": "sq2",
+   "context": "7 min break",
+   "source_ids": [
+    "B2.2.2"
+   ]
+  },
+  {
+   "subject": "sq2",
+   "relation": "PRECEDES",
+   "object": "sq3",
+   "context": "7 min break",
+   "source_ids": [
+    "B2.2.2"
+   ]
+  },
+  {
+   "subject": "sprint qualifying",
+   "relation": "DETERMINES",
+   "object": "sprint qualifying classification",
+   "context": "positions 1-10 from SQ3, 11-16 from SQ2, 17-22 from SQ1 (based on 22 cars)",
+   "source_ids": [
+    "B2.2.3"
+   ]
+  },
+  {
+   "subject": "fp1",
+   "relation": "DETERMINES",
+   "object": "sprint qualifying classification",
+   "context": "orders the unclassified drivers",
+   "source_ids": [
+    "B2.2.3"
+   ]
+  },
+  {
+   "subject": "steward",
+   "relation": "CONTROLS",
+   "object": "unclassified driver",
+   "context": "decide whether unclassified drivers take further part in the Competition",
+   "source_ids": [
+    "B2.2.3",
+    "B2.4.3"
+   ]
+  },
+  {
+   "subject": "race director",
+   "relation": "CONTROLS",
+   "object": "wet track declaration",
+   "context": null,
+   "source_ids": [
+    "B2.2.3",
+    "B2.4.3"
+   ]
+  },
+  {
+   "subject": "wet track declaration",
+   "relation": "APPLIES_DURING",
+   "object": "sq1",
+   "context": "the 107% rule does not apply if the track is declared wet",
+   "source_ids": [
+    "B2.2.3"
+   ]
+  },
+  {
+   "subject": "alternative format competition",
+   "relation": "HAS_PART",
+   "object": "sprint",
+   "context": "second day of track running",
+   "source_ids": [
+    "B2.3.1"
+   ]
+  },
+  {
+   "subject": "start signal",
+   "relation": "SIGNALS",
+   "object": "sprint",
+   "context": null,
+   "source_ids": [
+    "B2.3.2"
+   ]
+  },
+  {
+   "subject": "chequered flag",
+   "relation": "SIGNALS",
+   "object": "sprint",
+   "context": "distance: fewest complete laps exceeding 100 km",
+   "source_ids": [
+    "B2.3.2"
+   ]
+  },
+  {
+   "subject": "formation lap behind safety car",
+   "relation": "APPLIES_DURING",
+   "object": "sprint",
+   "context": "Sprint laps reduced by the safety car laps minus one",
+   "source_ids": [
+    "B2.3.2"
+   ]
+  },
+  {
+   "subject": "chequered flag",
+   "relation": "SIGNALS",
+   "object": "sprint",
+   "context": "shown to the leader at the end of the lap after one hour has elapsed",
+   "source_ids": [
+    "B2.3.3"
+   ]
+  },
+  {
+   "subject": "suspension",
+   "relation": "APPLIES_DURING",
+   "object": "sprint",
+   "context": "suspension time is added to the 1 h limit, up to 1.5 h in total",
+   "source_ids": [
+    "B2.3.3"
+   ]
+  },
+  {
+   "subject": "sprint qualifying classification",
+   "relation": "DETERMINES",
+   "object": "grid formation",
+   "context": "Sprint grid; classified drivers' grid penalties are added to their position",
+   "source_ids": [
+    "B2.3.4"
+   ]
+  },
+  {
+   "subject": "drivers' championship classification",
+   "relation": "DETERMINES",
+   "object": "grid formation",
+   "context": "Sprint grid if Sprint Qualifying cannot take place",
+   "source_ids": [
+    "B2.3.4"
+   ]
+  },
+  {
+   "subject": "steward",
+   "relation": "CONTROLS",
+   "object": "grid formation",
+   "context": "Sprint grid at their sole discretion if neither method can be applied",
+   "source_ids": [
+    "B2.3.4"
+   ]
+  },
+  {
+   "subject": "grid place penalty",
+   "relation": "APPLIES_DURING",
+   "object": "grid formation",
+   "context": "Sprint: more than 15 cumulative places means starting behind all classified drivers",
+   "source_ids": [
+    "B2.3.4"
+   ]
+  },
+  {
+   "subject": "grid formation",
+   "relation": "APPLIES_DURING",
+   "object": "sprint",
+   "context": "provisional grid at least 2 h before the formation lap, final grid 1 h before; non-starters must tell the stewards 1¼ h before",
+   "source_ids": [
+    "B2.3.4"
+   ]
+  },
+  {
+   "subject": "sprint",
+   "relation": "DETERMINES",
+   "object": "sprint classification",
+   "context": "most laps, then order across the control line; cars under 90% of the winner's laps are not classified",
+   "source_ids": [
+    "B2.3.5"
+   ]
+  },
+  {
+   "subject": "qualifying",
+   "relation": "DETERMINES",
+   "object": "race",
+   "context": "sets the Race starting grid",
+   "source_ids": [
+    "B2.4.1"
+   ]
+  },
+  {
+   "subject": "standard format competition",
+   "relation": "HAS_PART",
+   "object": "qualifying",
+   "context": null,
+   "source_ids": [
+    "B2.4.1"
+   ]
+  },
+  {
+   "subject": "alternative format competition",
+   "relation": "HAS_PART",
+   "object": "qualifying",
+   "context": null,
+   "source_ids": [
+    "B2.4.1"
+   ]
+  },
+  {
+   "subject": "fp3",
+   "relation": "PRECEDES",
+   "object": "qualifying",
+   "context": "SFC: qualifying starts 2 to 3 h after FP3, second day",
+   "source_ids": [
+    "B2.4.1"
+   ]
+  },
+  {
+   "subject": "sprint",
+   "relation": "PRECEDES",
+   "object": "qualifying",
+   "context": "AFC: qualifying starts 3 to 4 h after the Sprint, second day",
+   "source_ids": [
+    "B2.4.1"
+   ]
+  },
+  {
+   "subject": "qualifying",
+   "relation": "HAS_PART",
+   "object": "q1",
+   "context": "18 min; slowest six eliminated",
+   "source_ids": [
+    "B2.4.2"
+   ]
+  },
+  {
+   "subject": "qualifying",
+   "relation": "HAS_PART",
+   "object": "q2",
+   "context": "15 min; slowest six eliminated",
+   "source_ids": [
+    "B2.4.2"
+   ]
+  },
+  {
+   "subject": "qualifying",
+   "relation": "HAS_PART",
+   "object": "q3",
+   "context": "13 min; remaining ten cars",
+   "source_ids": [
+    "B2.4.2"
+   ]
+  },
+  {
+   "subject": "q1",
+   "relation": "PRECEDES",
+   "object": "q2",
+   "context": "7 min break",
+   "source_ids": [
+    "B2.4.2"
+   ]
+  },
+  {
+   "subject": "q2",
+   "relation": "PRECEDES",
+   "object": "q3",
+   "context": "7 min break",
+   "source_ids": [
+    "B2.4.2"
+   ]
+  },
+  {
+   "subject": "qualifying",
+   "relation": "DETERMINES",
+   "object": "qualifying classification",
+   "context": "positions 1-10 from Q3, 11-16 from Q2, 17-22 from Q1 (based on 22 cars)",
+   "source_ids": [
+    "B2.4.3"
+   ]
+  },
+  {
+   "subject": "lap time classified session",
+   "relation": "DETERMINES",
+   "object": "qualifying classification",
+   "context": "unclassified drivers are ordered by the last LTCS they all took part in",
+   "source_ids": [
+    "B2.4.3"
+   ]
+  },
+  {
+   "subject": "wet track declaration",
+   "relation": "APPLIES_DURING",
+   "object": "q1",
+   "context": "the 107% rule does not apply if the track is declared wet",
+   "source_ids": [
+    "B2.4.3"
+   ]
+  },
+  {
+   "subject": "competition",
+   "relation": "HAS_PART",
+   "object": "race",
+   "context": "third day of track running at all Competitions",
+   "source_ids": [
+    "B2.5.1"
+   ]
+  },
+  {
+   "subject": "start signal",
+   "relation": "SIGNALS",
+   "object": "race",
+   "context": null,
+   "source_ids": [
+    "B2.5.2"
+   ]
+  },
+  {
+   "subject": "chequered flag",
+   "relation": "SIGNALS",
+   "object": "race",
+   "context": "distance: fewest complete laps exceeding 305 km",
+   "source_ids": [
+    "B2.5.2"
+   ]
+  },
+  {
+   "subject": "formation lap behind safety car",
+   "relation": "APPLIES_DURING",
+   "object": "race",
+   "context": "Race laps reduced by the safety car laps minus one",
+   "source_ids": [
+    "B2.5.2"
+   ]
+  },
+  {
+   "subject": "race",
+   "relation": "OCCURS_AT",
+   "object": "monaco",
+   "context": "Monaco race distance is 260 km",
+   "source_ids": [
+    "B2.5.2"
+   ]
+  },
+  {
+   "subject": "chequered flag",
+   "relation": "SIGNALS",
+   "object": "race",
+   "context": "shown to the leader at the end of the lap after two hours have elapsed",
+   "source_ids": [
+    "B2.5.3"
+   ]
+  },
+  {
+   "subject": "suspension",
+   "relation": "APPLIES_DURING",
+   "object": "race",
+   "context": "suspension time is added to the 2 h limit, up to 3 h in total",
+   "source_ids": [
+    "B2.5.3"
+   ]
+  },
+  {
+   "subject": "qualifying classification",
+   "relation": "DETERMINES",
+   "object": "grid formation",
+   "context": "Race grid; classified drivers' grid penalties are added to their position",
+   "source_ids": [
+    "B2.5.4"
+   ]
+  },
+  {
+   "subject": "drivers' championship classification",
+   "relation": "DETERMINES",
+   "object": "grid formation",
+   "context": "Race grid if Qualifying cannot take place",
+   "source_ids": [
+    "B2.5.4"
+   ]
+  },
+  {
+   "subject": "steward",
+   "relation": "CONTROLS",
+   "object": "grid formation",
+   "context": "Race grid at their sole discretion if neither method can be applied",
+   "source_ids": [
+    "B2.5.4"
+   ]
+  },
+  {
+   "subject": "grid place penalty",
+   "relation": "APPLIES_DURING",
+   "object": "grid formation",
+   "context": "Race: more than 15 cumulative places means starting behind all classified drivers",
+   "source_ids": [
+    "B2.5.4"
+   ]
+  },
+  {
+   "subject": "grid formation",
+   "relation": "APPLIES_DURING",
+   "object": "race",
+   "context": "provisional grid at least 2 h before the formation lap, final grid 1 h before; non-starters must tell the stewards 1¼ h before",
+   "source_ids": [
+    "B2.5.4"
+   ]
+  },
+  {
+   "subject": "race",
+   "relation": "DETERMINES",
+   "object": "race classification",
+   "context": "most laps, then order across the control line; cars under 90% of the winner's laps are not classified",
+   "source_ids": [
+    "B2.5.5"
+   ]
+  }
+ ]
+}

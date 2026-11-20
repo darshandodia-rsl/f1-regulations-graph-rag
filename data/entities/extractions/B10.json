@@ -1,0 +1,416 @@
+{
+ "article": "B10",
+ "mentions": [
+  {
+   "clause_id": "B10.1.1",
+   "entities": [
+    "driver",
+    "media activity",
+    "media delegate",
+    "fp1",
+    "press conference",
+    "competitor",
+    "fan engagement activity",
+    "commercial rights holder",
+    "testing of current car",
+    "competition",
+    "document management system",
+    "fia",
+    "media",
+    "pre-event car display"
+   ]
+  },
+  {
+   "clause_id": "B10.1.2",
+   "entities": [
+    "competitor",
+    "f1 car",
+    "designated garage area",
+    "pre-event car display",
+    "fp1",
+    "pit lane",
+    "media delegate",
+    "media",
+    "pit stop",
+    "technical delegate",
+    "power unit manufacturer",
+    "media activity",
+    "competition",
+    "championship",
+    "fan engagement activity",
+    "commercial rights holder",
+    "driver",
+    "standard format competition",
+    "fp2",
+    "senior competitor representative",
+    "alternative format competition",
+    "sprint qualifying",
+    "press conference",
+    "team principal",
+    "team ceo",
+    "technical director",
+    "additional driver",
+    "testing of current car"
+   ]
+  },
+  {
+   "clause_id": "B10.1.3",
+   "entities": [
+    "fp3",
+    "formation lap",
+    "sprint",
+    "competition",
+    "driver",
+    "media delegate",
+    "commercial rights holder",
+    "fan engagement activity",
+    "q1",
+    "q2",
+    "q3",
+    "weighing",
+    "media activity",
+    "press conference",
+    "qualifying",
+    "media delegate's note",
+    "alternative format competition",
+    "media centre"
+   ]
+  },
+  {
+   "clause_id": "B10.1.4",
+   "entities": [
+    "driver",
+    "drivers parade",
+    "formation lap",
+    "competitor",
+    "media delegate",
+    "media delegate's note",
+    "race",
+    "starting grid",
+    "media activity",
+    "weighing",
+    "senior competitor representative",
+    "media"
+   ]
+  },
+  {
+   "clause_id": "B10.2.1",
+   "entities": [
+    "driver",
+    "race",
+    "podium ceremony",
+    "podium",
+    "media activity",
+    "press conference",
+    "media centre",
+    "monaco"
+   ]
+  },
+  {
+   "clause_id": "B10.2.2",
+   "entities": [
+    "podium ceremony",
+    "driver",
+    "race",
+    "flame-resistant clothing",
+    "media activity"
+   ]
+  },
+  {
+   "clause_id": "B10.2.3",
+   "entities": [
+    "media activity",
+    "press conference",
+    "driver"
+   ]
+  },
+  {
+   "clause_id": "B10.2.4",
+   "entities": [
+    "podium ceremony",
+    "media activity"
+   ]
+  }
+ ],
+ "relationships": [
+  {
+   "subject": "media delegate",
+   "relation": "CONTROLS",
+   "object": "media activity",
+   "context": "day before running: up to six drivers for max 1 h in a 2 h window from 23 h before FP1; other drivers do team-run sessions",
+   "source_ids": [
+    "B10.1.1"
+   ]
+  },
+  {
+   "subject": "media delegate",
+   "relation": "CONTROLS",
+   "object": "press conference",
+   "context": "designates the official FIA Press Conference",
+   "source_ids": [
+    "B10.1.1"
+   ]
+  },
+  {
+   "subject": "fan engagement activity",
+   "relation": "PRECEDES",
+   "object": "fp1",
+   "context": "day before running: six drivers, 30 min each in a 1 h window from 20.5 h before FP1",
+   "source_ids": [
+    "B10.1.1"
+   ]
+  },
+  {
+   "subject": "competitor",
+   "relation": "REPORTS_TO",
+   "object": "media delegate",
+   "context": "summary of new aero and bodywork parts no later than 23 h before FP1; released via the DMS 1 h before the car display",
+   "source_ids": [
+    "B10.1.1"
+   ]
+  },
+  {
+   "subject": "pre-event car display",
+   "relation": "PRECEDES",
+   "object": "fp1",
+   "context": "both cars outside the garage for up to 1 h, starting no later than 1.5 h before FP1, fitted with the parts to be used in FP1",
+   "source_ids": [
+    "B10.1.2"
+   ]
+  },
+  {
+   "subject": "media delegate",
+   "relation": "CONTROLS",
+   "object": "pre-event car display",
+   "context": "decides where the cars are positioned; media may film and photograph",
+   "source_ids": [
+    "B10.1.2"
+   ]
+  },
+  {
+   "subject": "technical delegate",
+   "relation": "CONTROLS",
+   "object": "pre-event car display",
+   "context": "approves exceptions in writing",
+   "source_ids": [
+    "B10.1.2"
+   ]
+  },
+  {
+   "subject": "power unit manufacturer",
+   "relation": "REQUIRES",
+   "object": "media activity",
+   "context": "one media presentation of at least 30 min per Championship, notified 4 weeks ahead",
+   "source_ids": [
+    "B10.1.2"
+   ]
+  },
+  {
+   "subject": "media delegate",
+   "relation": "CONTROLS",
+   "object": "fan engagement activity",
+   "context": "first day: up to 12 drivers chosen with the CRH, 30 min each, ending 1.5 h before FP1",
+   "source_ids": [
+    "B10.1.2"
+   ]
+  },
+  {
+   "subject": "senior competitor representative",
+   "relation": "REQUIRES",
+   "object": "media activity",
+   "context": "SFC: one driver and one senior representative available after FP2; up to six team representatives 1 h after FP1",
+   "source_ids": [
+    "B10.1.2"
+   ]
+  },
+  {
+   "subject": "driver",
+   "relation": "REQUIRES",
+   "object": "media activity",
+   "context": "AFC: available right after their Sprint Qualifying elimination; no top-three press conference after SQ",
+   "source_ids": [
+    "B10.1.2"
+   ]
+  },
+  {
+   "subject": "team principal",
+   "relation": "TYPE_OF",
+   "object": "senior competitor representative",
+   "context": "each Competitor needs at least four senior representatives for media activities, including these",
+   "source_ids": [
+    "B10.1.2"
+   ]
+  },
+  {
+   "subject": "team ceo",
+   "relation": "TYPE_OF",
+   "object": "senior competitor representative",
+   "context": "each Competitor needs at least four senior representatives for media activities, including these",
+   "source_ids": [
+    "B10.1.2"
+   ]
+  },
+  {
+   "subject": "technical director",
+   "relation": "TYPE_OF",
+   "object": "senior competitor representative",
+   "context": "each Competitor needs at least four senior representatives for media activities, including these",
+   "source_ids": [
+    "B10.1.2"
+   ]
+  },
+  {
+   "subject": "team principal",
+   "relation": "REQUIRES",
+   "object": "fan engagement activity",
+   "context": "three Team Principals not in the media activities, chosen with the CRH",
+   "source_ids": [
+    "B10.1.2"
+   ]
+  },
+  {
+   "subject": "media delegate",
+   "relation": "CONTROLS",
+   "object": "fan engagement activity",
+   "context": "second day: up to 12 drivers who didn't do it on day one, ending 1.5 h before FP3 or the Sprint formation lap",
+   "source_ids": [
+    "B10.1.3"
+   ]
+  },
+  {
+   "subject": "driver",
+   "relation": "REQUIRES",
+   "object": "media activity",
+   "context": "drivers eliminated in Q1/Q2, and Q3 drivers not in the press conference, right after being weighed",
+   "source_ids": [
+    "B10.1.3"
+   ]
+  },
+  {
+   "subject": "weighing",
+   "relation": "PRECEDES",
+   "object": "media activity",
+   "context": null,
+   "source_ids": [
+    "B10.1.3"
+   ]
+  },
+  {
+   "subject": "driver",
+   "relation": "REQUIRES",
+   "object": "press conference",
+   "context": "top three in Qualifying (post-qualifying procedures); AFC: top three in the Sprint, 15 min in the media centre then 15 min TV",
+   "source_ids": [
+    "B10.1.3"
+   ]
+  },
+  {
+   "subject": "press conference",
+   "relation": "DEFINED_IN",
+   "object": "media delegate's note",
+   "context": "post-qualifying procedures",
+   "source_ids": [
+    "B10.1.3"
+   ]
+  },
+  {
+   "subject": "driver",
+   "relation": "REQUIRES",
+   "object": "drivers parade",
+   "context": "all drivers, 30 min starting 2 h before the formation lap; at the front of the grid 16 min before for the national anthem",
+   "source_ids": [
+    "B10.1.4"
+   ]
+  },
+  {
+   "subject": "media delegate",
+   "relation": "CONTROLS",
+   "object": "drivers parade",
+   "context": null,
+   "source_ids": [
+    "B10.1.4"
+   ]
+  },
+  {
+   "subject": "drivers parade",
+   "relation": "PRECEDES",
+   "object": "race",
+   "context": null,
+   "source_ids": [
+    "B10.1.4"
+   ]
+  },
+  {
+   "subject": "race",
+   "relation": "DEFINED_IN",
+   "object": "media delegate's note",
+   "context": "pre-race and post-race procedures",
+   "source_ids": [
+    "B10.1.4"
+   ]
+  },
+  {
+   "subject": "driver",
+   "relation": "REQUIRES",
+   "object": "media activity",
+   "context": "Race retirees after returning to the paddock; finishers outside the top three after being weighed",
+   "source_ids": [
+    "B10.1.4"
+   ]
+  },
+  {
+   "subject": "senior competitor representative",
+   "relation": "REQUIRES",
+   "object": "media activity",
+   "context": "one senior spokesperson for TV during the Race, and one at hospitality for 5 min, 1-2 h after the Race",
+   "source_ids": [
+    "B10.1.4"
+   ]
+  },
+  {
+   "subject": "driver",
+   "relation": "REQUIRES",
+   "object": "podium ceremony",
+   "context": "top three plus a winning constructor representative; then 1.5 h for TV and the press conference",
+   "source_ids": [
+    "B10.2.1"
+   ]
+  },
+  {
+   "subject": "podium ceremony",
+   "relation": "OCCURS_AT",
+   "object": "podium",
+   "context": "procedure in Appendix B4, except at Monaco",
+   "source_ids": [
+    "B10.2.1"
+   ]
+  },
+  {
+   "subject": "press conference",
+   "relation": "OCCURS_AT",
+   "object": "media centre",
+   "context": null,
+   "source_ids": [
+    "B10.2.1"
+   ]
+  },
+  {
+   "subject": "driver",
+   "relation": "REQUIRES",
+   "object": "flame-resistant clothing",
+   "context": "top three keep driving suits done up to the neck through the podium and interviews",
+   "source_ids": [
+    "B10.2.2"
+   ]
+  },
+  {
+   "subject": "media activity",
+   "relation": "APPLIES_DURING",
+   "object": "podium ceremony",
+   "context": "if no points are awarded there is no podium, but TV interviews still happen at that time",
+   "source_ids": [
+    "B10.2.4"
+   ]
+  }
+ ]
+}

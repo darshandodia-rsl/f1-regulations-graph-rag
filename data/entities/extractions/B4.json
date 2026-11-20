@@ -1,0 +1,353 @@
+{
+ "article": "B4",
+ "mentions": [
+  {
+   "clause_id": "B4.1.1",
+   "entities": [
+    "driver",
+    "lap time classified session",
+    "steward",
+    "impeding",
+    "unnecessary stop on track",
+    "penalty",
+    "circuit"
+   ]
+  },
+  {
+   "clause_id": "B4.1.2",
+   "entities": [
+    "lap time classified session",
+    "race director",
+    "session interruption",
+    "red flag",
+    "marshal post",
+    "start gantry",
+    "control line",
+    "f1 car",
+    "pit lane",
+    "fia standard ecu",
+    "first safety car line",
+    "marshalling sector",
+    "fia light panel",
+    "track",
+    "q1",
+    "q2",
+    "q3",
+    "sq1",
+    "sq2",
+    "sq3"
+   ]
+  },
+  {
+   "clause_id": "B4.1.3",
+   "entities": [
+    "race director",
+    "lap time classified session",
+    "session interruption",
+    "competition",
+    "driver",
+    "total time classified session"
+   ]
+  },
+  {
+   "clause_id": "B4.1.4",
+   "entities": [
+    "virtual safety car",
+    "lap time classified session",
+    "race director",
+    "vsc deployed message",
+    "vsc ending message",
+    "fia light panel",
+    "f1 car",
+    "track",
+    "pit entry road",
+    "pit lane",
+    "pit exit road",
+    "fia standard ecu",
+    "marshalling sector",
+    "first safety car line",
+    "second safety car line",
+    "overtaking",
+    "erratic driving",
+    "minimum time breach",
+    "driver"
+   ]
+  },
+  {
+   "clause_id": "B4.2.1",
+   "entities": [
+    "free practice",
+    "session interruption",
+    "fia",
+    "commercial rights holder",
+    "standard format competition",
+    "alternative format competition"
+   ]
+  },
+  {
+   "clause_id": "B4.2.2",
+   "entities": [
+    "free practice",
+    "driver",
+    "practice start",
+    "chequered flag",
+    "control line",
+    "starting grid",
+    "f1 car",
+    "race director",
+    "red flag",
+    "start gantry",
+    "pit lane"
+   ]
+  },
+  {
+   "clause_id": "B4.3.1",
+   "entities": [
+    "sprint qualifying",
+    "qualifying",
+    "session interruption",
+    "race director",
+    "f1 car",
+    "pit lane",
+    "track"
+   ]
+  },
+  {
+   "clause_id": "B4.3.2",
+   "entities": [
+    "driver",
+    "f1 car",
+    "pit lane",
+    "sprint qualifying",
+    "qualifying"
+   ]
+  }
+ ],
+ "relationships": [
+  {
+   "subject": "impeding",
+   "relation": "PUNISHABLE_BY",
+   "object": "penalty",
+   "context": "during an LTCS, penalties under B1.9.4",
+   "source_ids": [
+    "B4.1.1"
+   ]
+  },
+  {
+   "subject": "unnecessary stop on track",
+   "relation": "PUNISHABLE_BY",
+   "object": "penalty",
+   "context": "during an LTCS, penalties under B1.9.4",
+   "source_ids": [
+    "B4.1.1"
+   ]
+  },
+  {
+   "subject": "impeding",
+   "relation": "APPLIES_DURING",
+   "object": "lap time classified session",
+   "context": null,
+   "source_ids": [
+    "B4.1.1"
+   ]
+  },
+  {
+   "subject": "unnecessary stop on track",
+   "relation": "APPLIES_DURING",
+   "object": "lap time classified session",
+   "context": null,
+   "source_ids": [
+    "B4.1.1"
+   ]
+  },
+  {
+   "subject": "race director",
+   "relation": "CONTROLS",
+   "object": "session interruption",
+   "context": "orders red flags at all marshal posts and the orange lights on the start gantry",
+   "source_ids": [
+    "B4.1.2"
+   ]
+  },
+  {
+   "subject": "red flag",
+   "relation": "SIGNALS",
+   "object": "session interruption",
+   "context": "all cars slow down and return to the pit lane, staying above the FIA ECU minimum time once in each marshalling sector",
+   "source_ids": [
+    "B4.1.2"
+   ]
+  },
+  {
+   "subject": "session interruption",
+   "relation": "APPLIES_DURING",
+   "object": "lap time classified session",
+   "context": null,
+   "source_ids": [
+    "B4.1.2"
+   ]
+  },
+  {
+   "subject": "race director",
+   "relation": "CONTROLS",
+   "object": "session interruption",
+   "context": "as often and as long as needed; no protest accepted about its effect on qualification",
+   "source_ids": [
+    "B4.1.3"
+   ]
+  },
+  {
+   "subject": "race director",
+   "relation": "CONTROLS",
+   "object": "virtual safety car",
+   "context": null,
+   "source_ids": [
+    "B4.1.4"
+   ]
+  },
+  {
+   "subject": "virtual safety car",
+   "relation": "APPLIES_DURING",
+   "object": "lap time classified session",
+   "context": "neutralises an LTCS",
+   "source_ids": [
+    "B4.1.4"
+   ]
+  },
+  {
+   "subject": "vsc deployed message",
+   "relation": "SIGNALS",
+   "object": "virtual safety car",
+   "context": "FIA light panels show VSC",
+   "source_ids": [
+    "B4.1.4"
+   ]
+  },
+  {
+   "subject": "fia light panel",
+   "relation": "SIGNALS",
+   "object": "virtual safety car",
+   "context": "show VSC while deployed; turn green 10-15 s after the VSC ENDING message",
+   "source_ids": [
+    "B4.1.4"
+   ]
+  },
+  {
+   "subject": "vsc ending message",
+   "relation": "SIGNALS",
+   "object": "virtual safety car",
+   "context": "ends it; panels turn green 10-15 s later",
+   "source_ids": [
+    "B4.1.4"
+   ]
+  },
+  {
+   "subject": "overtaking",
+   "relation": "APPLIES_DURING",
+   "object": "virtual safety car",
+   "context": "forbidden except: entering the pits after the first safety car line, leaving before the second safety car line, within the pit entry road/pit lane/pit exit road, or passing a car slowing with an obvious problem",
+   "source_ids": [
+    "B4.1.4"
+   ]
+  },
+  {
+   "subject": "erratic driving",
+   "relation": "APPLIES_DURING",
+   "object": "virtual safety car",
+   "context": "on track, pit entry road or pit lane",
+   "source_ids": [
+    "B4.1.4"
+   ]
+  },
+  {
+   "subject": "minimum time breach",
+   "relation": "APPLIES_DURING",
+   "object": "virtual safety car",
+   "context": "must stay above the FIA ECU minimum time once in each marshalling sector and at both safety car lines",
+   "source_ids": [
+    "B4.1.4"
+   ]
+  },
+  {
+   "subject": "fia",
+   "relation": "CONTROLS",
+   "object": "free practice",
+   "context": "an interrupted free practice session may be extended if agreed between the FIA and the CRH",
+   "source_ids": [
+    "B4.2.1"
+   ]
+  },
+  {
+   "subject": "session interruption",
+   "relation": "APPLIES_DURING",
+   "object": "free practice",
+   "context": null,
+   "source_ids": [
+    "B4.2.1"
+   ]
+  },
+  {
+   "subject": "practice start",
+   "relation": "APPLIES_DURING",
+   "object": "free practice",
+   "context": "after the end-of-session signal, for drivers still on track",
+   "source_ids": [
+    "B4.2.2"
+   ]
+  },
+  {
+   "subject": "practice start",
+   "relation": "OCCURS_AT",
+   "object": "starting grid",
+   "context": "complete one more lap, start from a marked grid position, never with a stationary car ahead on the same side",
+   "source_ids": [
+    "B4.2.2"
+   ]
+  },
+  {
+   "subject": "race director",
+   "relation": "CONTROLS",
+   "object": "practice start",
+   "context": "may stop practice starts with a red flag",
+   "source_ids": [
+    "B4.2.2"
+   ]
+  },
+  {
+   "subject": "red flag",
+   "relation": "SIGNALS",
+   "object": "practice start",
+   "context": "stops practice starts; cars return slowly to the pit lane",
+   "source_ids": [
+    "B4.2.2"
+   ]
+  },
+  {
+   "subject": "session interruption",
+   "relation": "APPLIES_DURING",
+   "object": "sprint qualifying",
+   "context": "the interrupted period is extended so its full running time is kept",
+   "source_ids": [
+    "B4.3.1"
+   ]
+  },
+  {
+   "subject": "session interruption",
+   "relation": "APPLIES_DURING",
+   "object": "qualifying",
+   "context": "the interrupted period is extended so its full running time is kept",
+   "source_ids": [
+    "B4.3.1"
+   ]
+  },
+  {
+   "subject": "race director",
+   "relation": "CONTROLS",
+   "object": "session interruption",
+   "context": "may end the period if no car could leave the pit lane and start a timed lap before its end",
+   "source_ids": [
+    "B4.3.1"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,28 @@
+[project]
+name = "f1rag"
+version = "0.1.0"
+description = "GraphRAG search for the FIA 2026 F1 Sporting Regulations"
+requires-python = ">=3.10"
+dependencies = [
+    "pymupdf>=1.24",
+    "neo4j>=5.20",
+    "fastembed>=0.4",
+    "python-dotenv>=1.0",
+    "langchain-neo4j>=0.11",
+    "langchain-community>=0.4",
+    "langchain-text-splitters>=1.1",
+    "langchain-groq>=1.2",
+    "pydantic>=2.7",
+    "fastapi>=0.115",
+    "uvicorn>=0.30",
+]
+
+[project.scripts]
+f1rag = "f1rag.cli:main"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]

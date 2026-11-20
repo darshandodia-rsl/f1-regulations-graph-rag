@@ -1,0 +1,131 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1818" height="710" viewBox="0 0 1818 710" font-family="IBM Plex Sans, Helvetica Neue, Helvetica, Arial, sans-serif">
+<defs><marker id="h" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,1 L9,5 L0,9 z" fill="#9A968E"/></marker><marker id="t" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,1 L9,5 L0,9 z" fill="#3E7A70"/></marker></defs>
+<rect width="1818" height="710" fill="#F4F3EE"/>
+<text x="40" y="54" font-size="12" fill="#8A867D" text-anchor="start" font-weight="700">INGESTION · STRUCTURE (deterministic, no LLM)</text>
+<text x="40" y="264" font-size="12" fill="#8A867D" text-anchor="start" font-weight="700">INGESTION · ENTITIES (LLM extraction)</text>
+<text x="40" y="564" font-size="12" fill="#8A867D" text-anchor="start" font-weight="700">QUERY (every question)</text>
+<rect x="40" y="70" width="170" height="100" rx="10" fill="#FBFAF7" stroke="#CFCBC2" stroke-width="1.6"/>
+<text x="125.0" y="107.0" text-anchor="middle" font-size="18" font-weight="700" fill="#17252D">Regulations</text>
+<text x="125.0" y="129.0" text-anchor="middle" font-size="18" font-weight="700" fill="#17252D">PDF</text>
+<text x="125.0" y="151.0" text-anchor="middle" font-size="12.5" fill="#6B6860">Section B, 101 pages</text>
+<rect x="236" y="70" width="170" height="100" rx="10" fill="#FBFAF7" stroke="#CFCBC2" stroke-width="1.6"/>
+<text x="321.0" y="110.0" text-anchor="middle" font-size="18" font-weight="700" fill="#17252D">Parse</text>
+<text x="321.0" y="132.0" text-anchor="middle" font-size="12.5" fill="#6B6860">split by numbering</text>
+<text x="321.0" y="148.0" text-anchor="middle" font-size="12.5" fill="#6B6860">B1 › B1.6 › B1.6.3</text>
+<rect x="432" y="70" width="170" height="100" rx="10" fill="#E3ECE9" stroke="#3E7A70" stroke-width="1.6"/>
+<text x="517.0" y="99.0" text-anchor="middle" font-size="18" font-weight="700" fill="#17252D">Structural</text>
+<text x="517.0" y="121.0" text-anchor="middle" font-size="18" font-weight="700" fill="#17252D">graph</text>
+<text x="517.0" y="143.0" text-anchor="middle" font-size="12.5" fill="#6B6860">PART_OF · REFERENCES</text>
+<text x="517.0" y="159.0" text-anchor="middle" font-size="12.5" fill="#6B6860">USES_TERM</text>
+<rect x="628" y="70" width="170" height="100" rx="10" fill="#FBFAF7" stroke="#CFCBC2" stroke-width="1.6"/>
+<text x="713.0" y="110.0" text-anchor="middle" font-size="18" font-weight="700" fill="#17252D">Chunk</text>
+<text x="713.0" y="132.0" text-anchor="middle" font-size="12.5" fill="#6B6860">1500 chars, 200 overlap</text>
+<text x="713.0" y="148.0" text-anchor="middle" font-size="12.5" fill="#6B6860">+ breadcrumb header</text>
+<rect x="824" y="70" width="170" height="100" rx="10" fill="#FBFAF7" stroke="#CFCBC2" stroke-width="1.6"/>
+<text x="909.0" y="110.0" text-anchor="middle" font-size="18" font-weight="700" fill="#17252D">Embed</text>
+<text x="909.0" y="132.0" text-anchor="middle" font-size="12.5" fill="#6B6860">bge-small, 384-d</text>
+<text x="909.0" y="148.0" text-anchor="middle" font-size="12.5" fill="#6B6860">+ BM25 keyword index</text>
+<line x1="216" y1="120.0" x2="230" y2="120.0" stroke="#9A968E" stroke-width="1.6" marker-end="url(#h)"/>
+<line x1="412" y1="120.0" x2="426" y2="120.0" stroke="#9A968E" stroke-width="1.6" marker-end="url(#h)"/>
+<line x1="608" y1="120.0" x2="622" y2="120.0" stroke="#9A968E" stroke-width="1.6" marker-end="url(#h)"/>
+<line x1="804" y1="120.0" x2="818" y2="120.0" stroke="#9A968E" stroke-width="1.6" marker-end="url(#h)"/>
+<rect x="40" y="280" width="170" height="100" rx="10" fill="#17252D" stroke="#17252D" stroke-width="1.6"/>
+<text x="125.0" y="320.0" text-anchor="middle" font-size="18" font-weight="700" fill="#FFFFFF">Vocabulary</text>
+<text x="125.0" y="342.0" text-anchor="middle" font-size="12.5" fill="#C9D3D6">entity types, relations,</text>
+<text x="125.0" y="358.0" text-anchor="middle" font-size="12.5" fill="#C9D3D6">canonical entities</text>
+<rect x="236" y="280" width="170" height="100" rx="10" fill="#17252D" stroke="#17252D" stroke-width="1.6"/>
+<text x="321.0" y="320.0" text-anchor="middle" font-size="18" font-weight="700" fill="#FFFFFF">Extract</text>
+<text x="321.0" y="342.0" text-anchor="middle" font-size="12.5" fill="#C9D3D6">per clause, structured</text>
+<text x="321.0" y="358.0" text-anchor="middle" font-size="12.5" fill="#C9D3D6">output (Pydantic)</text>
+<rect x="432" y="280" width="170" height="100" rx="10" fill="#FBFAF7" stroke="#CFCBC2" stroke-width="1.6"/>
+<text x="517.0" y="320.0" text-anchor="middle" font-size="18" font-weight="700" fill="#17252D">Validate</text>
+<text x="517.0" y="342.0" text-anchor="middle" font-size="12.5" fill="#6B6860">against vocab +</text>
+<text x="517.0" y="358.0" text-anchor="middle" font-size="12.5" fill="#6B6860">clause ids, retry</text>
+<rect x="628" y="280" width="170" height="100" rx="10" fill="#E3ECE9" stroke="#3E7A70" stroke-width="1.6"/>
+<text x="713.0" y="309.0" text-anchor="middle" font-size="18" font-weight="700" fill="#17252D">Entity</text>
+<text x="713.0" y="331.0" text-anchor="middle" font-size="18" font-weight="700" fill="#17252D">graph</text>
+<text x="713.0" y="353.0" text-anchor="middle" font-size="12.5" fill="#6B6860">MENTIONS · IS_TERM</text>
+<text x="713.0" y="369.0" text-anchor="middle" font-size="12.5" fill="#6B6860">824 facts</text>
+<rect x="824" y="280" width="170" height="100" rx="10" fill="#FBFAF7" stroke="#CFCBC2" stroke-width="1.6"/>
+<text x="909.0" y="317.0" text-anchor="middle" font-size="18" font-weight="700" fill="#17252D">Embed</text>
+<text x="909.0" y="339.0" text-anchor="middle" font-size="18" font-weight="700" fill="#17252D">entities</text>
+<text x="909.0" y="361.0" text-anchor="middle" font-size="12.5" fill="#6B6860">name cards → vectors</text>
+<line x1="216" y1="330.0" x2="230" y2="330.0" stroke="#9A968E" stroke-width="1.6" marker-end="url(#h)"/>
+<line x1="412" y1="330.0" x2="426" y2="330.0" stroke="#9A968E" stroke-width="1.6" marker-end="url(#h)"/>
+<line x1="608" y1="330.0" x2="622" y2="330.0" stroke="#9A968E" stroke-width="1.6" marker-end="url(#h)"/>
+<line x1="804" y1="330.0" x2="818" y2="330.0" stroke="#9A968E" stroke-width="1.6" marker-end="url(#h)"/>
+<line x1="321.0" y1="174" x2="321.0" y2="274" stroke="#9A968E" stroke-width="1.6" marker-end="url(#h)"/>
+<text x="329.0" y="229.0" font-size="12" fill="#6B6860" text-anchor="start" font-weight="400">clauses</text>
+<rect x="1020" y="70" width="366" height="310" rx="12" fill="#E3ECE9" stroke="#3E7A70" stroke-width="2"/>
+<text x="1203.0" y="110" text-anchor="middle" font-size="22" font-weight="700" fill="#17252D">Neo4j</text>
+<text x="1203.0" y="130" text-anchor="middle" font-size="12.5" fill="#6B6860">one database: graph + vectors + keywords</text>
+<text x="1044" y="170" font-size="13.5" fill="#17252D" font-family="Menlo, Consolas, monospace">Provision · Term · Chunk · Entity</text>
+<text x="1044" y="192" font-size="13.5" fill="#17252D" font-family="Menlo, Consolas, monospace"></text>
+<text x="1044" y="214" font-size="13.5" fill="#17252D" font-family="Menlo, Consolas, monospace">chunk_embedding   (vector)</text>
+<text x="1044" y="236" font-size="13.5" fill="#17252D" font-family="Menlo, Consolas, monospace">chunk_fulltext      (BM25)</text>
+<text x="1044" y="258" font-size="13.5" fill="#17252D" font-family="Menlo, Consolas, monospace">entity_embedding  (vector)</text>
+<line x1="1000" y1="120.0" x2="1014" y2="120.0" stroke="#9A968E" stroke-width="1.6" marker-end="url(#h)"/>
+<line x1="1000" y1="330.0" x2="1014" y2="330.0" stroke="#9A968E" stroke-width="1.6" marker-end="url(#h)"/>
+<rect x="1412" y="70" width="34" height="22" rx="5" fill="#FBFAF7" stroke="#CFCBC2" stroke-width="1.4"/>
+<text x="1458" y="86" font-size="14" fill="#3A3833" text-anchor="start" font-weight="400">code step</text>
+<rect x="1412" y="104" width="34" height="22" rx="5" fill="#E3ECE9" stroke="#3E7A70" stroke-width="1.4"/>
+<text x="1458" y="120" font-size="14" fill="#3A3833" text-anchor="start" font-weight="400">graph / Neo4j step</text>
+<rect x="1412" y="138" width="34" height="22" rx="5" fill="#17252D" stroke="#17252D" stroke-width="1.4"/>
+<text x="1458" y="154" font-size="14" fill="#3A3833" text-anchor="start" font-weight="400">LLM call</text>
+<text x="1412" y="186" font-size="13" fill="#6B6860" text-anchor="start" font-weight="400">dashed = same embedding model</text>
+<rect x="40" y="580" width="170" height="100" rx="10" fill="#FBFAF7" stroke="#CFCBC2" stroke-width="1.6"/>
+<text x="125.0" y="636.0" text-anchor="middle" font-size="18" font-weight="700" fill="#17252D">Question</text>
+<rect x="236" y="580" width="170" height="100" rx="10" fill="#FBFAF7" stroke="#CFCBC2" stroke-width="1.6"/>
+<text x="321.0" y="617.0" text-anchor="middle" font-size="18" font-weight="700" fill="#17252D">Embed</text>
+<text x="321.0" y="639.0" text-anchor="middle" font-size="18" font-weight="700" fill="#17252D">query</text>
+<text x="321.0" y="661.0" text-anchor="middle" font-size="12.5" fill="#6B6860">bge prefix added</text>
+<rect x="432" y="580" width="170" height="100" rx="10" fill="#E3ECE9" stroke="#3E7A70" stroke-width="1.6"/>
+<text x="517.0" y="609.0" text-anchor="middle" font-size="18" font-weight="700" fill="#17252D">Hybrid</text>
+<text x="517.0" y="631.0" text-anchor="middle" font-size="18" font-weight="700" fill="#17252D">search</text>
+<text x="517.0" y="653.0" text-anchor="middle" font-size="12.5" fill="#6B6860">vector + BM25</text>
+<text x="517.0" y="669.0" text-anchor="middle" font-size="12.5" fill="#6B6860">→ 5 seed clauses</text>
+<rect x="628" y="580" width="170" height="100" rx="10" fill="#E3ECE9" stroke="#3E7A70" stroke-width="1.6"/>
+<text x="713.0" y="609.0" text-anchor="middle" font-size="18" font-weight="700" fill="#17252D">Graph</text>
+<text x="713.0" y="631.0" text-anchor="middle" font-size="18" font-weight="700" fill="#17252D">expansion</text>
+<text x="713.0" y="653.0" text-anchor="middle" font-size="12.5" fill="#6B6860">references · terms</text>
+<text x="713.0" y="669.0" text-anchor="middle" font-size="12.5" fill="#6B6860">facts · shared</text>
+<rect x="824" y="580" width="170" height="100" rx="10" fill="#E3ECE9" stroke="#3E7A70" stroke-width="1.6"/>
+<text x="909.0" y="620.0" text-anchor="middle" font-size="18" font-weight="700" fill="#17252D">Focus</text>
+<text x="909.0" y="642.0" text-anchor="middle" font-size="12.5" fill="#6B6860">keep 8 added clauses</text>
+<text x="909.0" y="658.0" text-anchor="middle" font-size="12.5" fill="#6B6860">that match question</text>
+<rect x="1020" y="580" width="170" height="100" rx="10" fill="#FBFAF7" stroke="#CFCBC2" stroke-width="1.6"/>
+<text x="1105.0" y="609.0" text-anchor="middle" font-size="18" font-weight="700" fill="#17252D">Build</text>
+<text x="1105.0" y="631.0" text-anchor="middle" font-size="18" font-weight="700" fill="#17252D">context</text>
+<text x="1105.0" y="653.0" text-anchor="middle" font-size="12.5" fill="#6B6860">priority order</text>
+<text x="1105.0" y="669.0" text-anchor="middle" font-size="12.5" fill="#6B6860">24k char budget</text>
+<rect x="1216" y="580" width="170" height="100" rx="10" fill="#17252D" stroke="#17252D" stroke-width="1.6"/>
+<text x="1301.0" y="620.0" text-anchor="middle" font-size="18" font-weight="700" fill="#FFFFFF">LLM</text>
+<text x="1301.0" y="642.0" text-anchor="middle" font-size="12.5" fill="#C9D3D6">Groq gpt-oss-120b</text>
+<text x="1301.0" y="658.0" text-anchor="middle" font-size="12.5" fill="#C9D3D6">JSON answer</text>
+<rect x="1412" y="580" width="170" height="100" rx="10" fill="#FBFAF7" stroke="#CFCBC2" stroke-width="1.6"/>
+<text x="1497.0" y="609.0" text-anchor="middle" font-size="18" font-weight="700" fill="#17252D">Check</text>
+<text x="1497.0" y="631.0" text-anchor="middle" font-size="18" font-weight="700" fill="#17252D">citations</text>
+<text x="1497.0" y="653.0" text-anchor="middle" font-size="12.5" fill="#6B6860">cited ids must be</text>
+<text x="1497.0" y="669.0" text-anchor="middle" font-size="12.5" fill="#6B6860">in the context</text>
+<rect x="1608" y="580" width="170" height="100" rx="10" fill="#FBFAF7" stroke="#CFCBC2" stroke-width="1.6"/>
+<text x="1693.0" y="620.0" text-anchor="middle" font-size="18" font-weight="700" fill="#17252D">Answer</text>
+<text x="1693.0" y="642.0" text-anchor="middle" font-size="12.5" fill="#6B6860">with [B1.6.3]</text>
+<text x="1693.0" y="658.0" text-anchor="middle" font-size="12.5" fill="#6B6860">citations</text>
+<line x1="216" y1="630.0" x2="230" y2="630.0" stroke="#9A968E" stroke-width="1.6" marker-end="url(#h)"/>
+<line x1="412" y1="630.0" x2="426" y2="630.0" stroke="#9A968E" stroke-width="1.6" marker-end="url(#h)"/>
+<line x1="608" y1="630.0" x2="622" y2="630.0" stroke="#9A968E" stroke-width="1.6" marker-end="url(#h)"/>
+<line x1="804" y1="630.0" x2="818" y2="630.0" stroke="#9A968E" stroke-width="1.6" marker-end="url(#h)"/>
+<line x1="1000" y1="630.0" x2="1014" y2="630.0" stroke="#9A968E" stroke-width="1.6" marker-end="url(#h)"/>
+<line x1="1196" y1="630.0" x2="1210" y2="630.0" stroke="#9A968E" stroke-width="1.6" marker-end="url(#h)"/>
+<line x1="1392" y1="630.0" x2="1406" y2="630.0" stroke="#9A968E" stroke-width="1.6" marker-end="url(#h)"/>
+<line x1="1588" y1="630.0" x2="1602" y2="630.0" stroke="#9A968E" stroke-width="1.6" marker-end="url(#h)"/>
+<path d="M869.0,172 V192 H419.0 V402 H361.0 V576" fill="none" stroke="#9A968E" stroke-width="1.6" stroke-dasharray="5,5"/>
+<text x="427.0" y="394" font-size="12" fill="#6B6860" text-anchor="start" font-weight="400">same model</text>
+<path d="M1203.0,382 V490 H517.0" fill="none" stroke="#3E7A70" stroke-width="2"/>
+<line x1="517.0" y1="490" x2="517.0" y2="574" stroke="#3E7A70" stroke-width="2" marker-end="url(#t)"/>
+<text x="525.0" y="530" font-size="12.5" fill="#3E7A70" text-anchor="start" font-weight="400">nearest chunks</text>
+<line x1="713.0" y1="490" x2="713.0" y2="574" stroke="#3E7A70" stroke-width="2" marker-end="url(#t)"/>
+<text x="721.0" y="530" font-size="12.5" fill="#3E7A70" text-anchor="start" font-weight="400">traverse</text>
+<line x1="909.0" y1="490" x2="909.0" y2="574" stroke="#3E7A70" stroke-width="2" marker-end="url(#t)"/>
+<text x="917.0" y="530" font-size="12.5" fill="#3E7A70" text-anchor="start" font-weight="400">entity index</text>
+</svg>

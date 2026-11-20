@@ -1,0 +1,7 @@
+.venv/
+.env
+data/eval/results.json
+web/.taste-skill/
+__pycache__/
+*.egg-info/
+.DS_Store

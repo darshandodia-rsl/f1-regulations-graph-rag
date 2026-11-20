@@ -1,0 +1,363 @@
+{
+ "article": "B9",
+ "mentions": [
+  {
+   "clause_id": "B9.1.1",
+   "entities": [
+    "pass",
+    "f1 car",
+    "paddock",
+    "pit lane",
+    "track",
+    "competition",
+    "fia"
+   ]
+  },
+  {
+   "clause_id": "B9.2.1",
+   "entities": [
+    "competition",
+    "fp1",
+    "race",
+    "competitor",
+    "operational personnel",
+    "f1 car",
+    "circuit",
+    "formation lap"
+   ]
+  },
+  {
+   "clause_id": "B9.2.2",
+   "entities": [
+    "driver",
+    "non-operational personnel",
+    "operational personnel",
+    "competition"
+   ]
+  },
+  {
+   "clause_id": "B9.3.1",
+   "entities": [
+    "trainee personnel",
+    "operational personnel",
+    "competitor",
+    "championship",
+    "competition"
+   ]
+  },
+  {
+   "clause_id": "B9.4.1",
+   "entities": [
+    "personnel declaration",
+    "fia",
+    "restricted period one",
+    "document management system",
+    "operational personnel",
+    "trainee personnel",
+    "competitor",
+    "competition",
+    "restricted area",
+    "paddock",
+    "designated garage area",
+    "pit lane",
+    "signalling area"
+   ]
+  },
+  {
+   "clause_id": "B9.5.1",
+   "entities": [
+    "restricted period",
+    "competition",
+    "operational personnel",
+    "trainee personnel",
+    "circuit",
+    "restricted period one",
+    "restricted period two",
+    "restricted period three",
+    "fp1",
+    "fp2",
+    "fp3",
+    "standard format competition",
+    "alternative format competition",
+    "formation lap",
+    "sprint",
+    "sprint qualifying"
+   ]
+  },
+  {
+   "clause_id": "B9.5.2",
+   "entities": [
+    "operational personnel",
+    "trainee personnel",
+    "paddock",
+    "restricted period",
+    "circuit",
+    "restricted period one",
+    "restricted period two",
+    "restricted period three",
+    "f1 car",
+    "restricted period breach"
+   ]
+  },
+  {
+   "clause_id": "B9.5.3",
+   "entities": [
+    "competitor",
+    "championship",
+    "restricted period",
+    "restricted period one",
+    "restricted period two",
+    "restricted period three",
+    "competition",
+    "restricted period breach",
+    "driver",
+    "race",
+    "pit lane start"
+   ]
+  },
+  {
+   "clause_id": "B9.5.4",
+   "entities": [
+    "driver",
+    "non-operational personnel",
+    "competition",
+    "restricted period"
+   ]
+  },
+  {
+   "clause_id": "B9.5.5",
+   "entities": [
+    "paddock",
+    "restricted period"
+   ]
+  },
+  {
+   "clause_id": "B9.5.6",
+   "entities": [
+    "restricted period one",
+    "race director",
+    "official supplier",
+    "competition",
+    "competitor"
+   ]
+  }
+ ],
+ "relationships": [
+  {
+   "subject": "fia",
+   "relation": "CONTROLS",
+   "object": "pass",
+   "context": "everyone in the paddock, pit lane or track must wear one; issued only with FIA agreement and used only by its holder",
+   "source_ids": [
+    "B9.1.1"
+   ]
+  },
+  {
+   "subject": "operational personnel",
+   "relation": "APPLIES_DURING",
+   "object": "competition",
+   "context": "max 60 per Competitor from 29 h before FP1 to 2 h after the Race start; unlimited from 45 min before the formation lap to 15 min after the Race start",
+   "source_ids": [
+    "B9.2.1"
+   ]
+  },
+  {
+   "subject": "trainee personnel",
+   "relation": "APPLIES_DURING",
+   "object": "championship",
+   "context": "16 individual exceptions per Competitor per Championship on top of the 60; each trainee max three Competitions",
+   "source_ids": [
+    "B9.3.1"
+   ]
+  },
+  {
+   "subject": "competitor",
+   "relation": "REQUIRES",
+   "object": "personnel declaration",
+   "context": "submitted before Restricted Period One; later changes at the FIA's discretion; exempt staff listed before the end of the Competition",
+   "source_ids": [
+    "B9.4.1"
+   ]
+  },
+  {
+   "subject": "personnel declaration",
+   "relation": "REQUIRES",
+   "object": "document management system",
+   "context": "uses the FIA's official template",
+   "source_ids": [
+    "B9.4.1"
+   ]
+  },
+  {
+   "subject": "restricted area",
+   "relation": "HAS_PART",
+   "object": "paddock",
+   "context": null,
+   "source_ids": [
+    "B9.4.1"
+   ]
+  },
+  {
+   "subject": "restricted area",
+   "relation": "HAS_PART",
+   "object": "designated garage area",
+   "context": null,
+   "source_ids": [
+    "B9.4.1"
+   ]
+  },
+  {
+   "subject": "restricted area",
+   "relation": "HAS_PART",
+   "object": "pit lane",
+   "context": null,
+   "source_ids": [
+    "B9.4.1"
+   ]
+  },
+  {
+   "subject": "restricted area",
+   "relation": "HAS_PART",
+   "object": "signalling area",
+   "context": null,
+   "source_ids": [
+    "B9.4.1"
+   ]
+  },
+  {
+   "subject": "restricted period",
+   "relation": "APPLIES_DURING",
+   "object": "competition",
+   "context": "operational and trainee personnel may not be within the circuit",
+   "source_ids": [
+    "B9.5.1"
+   ]
+  },
+  {
+   "subject": "restricted period",
+   "relation": "HAS_PART",
+   "object": "restricted period one",
+   "context": "42 h to 29 h before FP1",
+   "source_ids": [
+    "B9.5.1"
+   ]
+  },
+  {
+   "subject": "restricted period",
+   "relation": "HAS_PART",
+   "object": "restricted period two",
+   "context": "18 h to 4 h before FP1",
+   "source_ids": [
+    "B9.5.1"
+   ]
+  },
+  {
+   "subject": "restricted period",
+   "relation": "HAS_PART",
+   "object": "restricted period three",
+   "context": "SFC: 14 h to 3 h before FP3, starting earlier if the gap after FP2 exceeds 4 h",
+   "source_ids": [
+    "B9.5.1"
+   ]
+  },
+  {
+   "subject": "restricted period",
+   "relation": "HAS_PART",
+   "object": "restricted period three",
+   "context": "AFC: 14 h to 3 h before the Sprint formation lap, starting earlier if the gap after Sprint Qualifying exceeds 3 h",
+   "source_ids": [
+    "B9.5.1"
+   ]
+  },
+  {
+   "subject": "restricted period three",
+   "relation": "PRECEDES",
+   "object": "fp3",
+   "context": "SFC",
+   "source_ids": [
+    "B9.5.1"
+   ]
+  },
+  {
+   "subject": "restricted period three",
+   "relation": "PRECEDES",
+   "object": "sprint",
+   "context": "AFC",
+   "source_ids": [
+    "B9.5.1"
+   ]
+  },
+  {
+   "subject": "restricted period breach",
+   "relation": "APPLIES_DURING",
+   "object": "restricted period",
+   "context": "staff may enter the paddock 30 min before a period ends and stay 1 h (RP1/RP2) or 30 min (RP3) after it starts for exercise, meals and socialising; any operational work then is a breach",
+   "source_ids": [
+    "B9.5.2"
+   ]
+  },
+  {
+   "subject": "restricted period breach",
+   "relation": "PUNISHABLE_BY",
+   "object": "pit lane start",
+   "context": "both drivers start the Race from the pit lane",
+   "source_ids": [
+    "B9.5.3"
+   ]
+  },
+  {
+   "subject": "restricted period one",
+   "relation": "APPLIES_DURING",
+   "object": "championship",
+   "context": "six exceptions per Competitor per Championship, not used consecutively in one Competition",
+   "source_ids": [
+    "B9.5.3"
+   ]
+  },
+  {
+   "subject": "restricted period two",
+   "relation": "APPLIES_DURING",
+   "object": "championship",
+   "context": "five exceptions per Competitor per Championship, not used consecutively in one Competition",
+   "source_ids": [
+    "B9.5.3"
+   ]
+  },
+  {
+   "subject": "restricted period three",
+   "relation": "APPLIES_DURING",
+   "object": "championship",
+   "context": "four exceptions per Competitor per Championship, not used consecutively in one Competition",
+   "source_ids": [
+    "B9.5.3"
+   ]
+  },
+  {
+   "subject": "non-operational personnel",
+   "relation": "APPLIES_DURING",
+   "object": "restricted period",
+   "context": "exempt; may load or unload freight, prepare equipment for other series and prepare garage displays",
+   "source_ids": [
+    "B9.5.4"
+   ]
+  },
+  {
+   "subject": "restricted period",
+   "relation": "OCCURS_AT",
+   "object": "paddock",
+   "context": "warning boards placed before the turnstiles",
+   "source_ids": [
+    "B9.5.5"
+   ]
+  },
+  {
+   "subject": "race director",
+   "relation": "CONTROLS",
+   "object": "restricted period one",
+   "context": "may grant all Competitors an extra exception (not counted) if an official supplier fails to deliver, no later than 12 h before it starts",
+   "source_ids": [
+    "B9.5.6"
+   ]
+  }
+ ]
+}

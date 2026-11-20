@@ -1,0 +1,384 @@
+{
+ "article": "B7",
+ "mentions": [
+  {
+   "clause_id": "B7.1.1",
+   "entities": [
+    "driver adjustable bodywork",
+    "front wing profile",
+    "rear wing flap",
+    "fia standard ecu",
+    "technical regulations",
+    "driver",
+    "fia",
+    "competitor",
+    "activation zone",
+    "low grip activation zone",
+    "circuit",
+    "competition"
+   ]
+  },
+  {
+   "clause_id": "B7.1.2",
+   "entities": [
+    "driver",
+    "driver adjustable bodywork",
+    "fia standard ecu",
+    "low grip conditions",
+    "low grip activation zone"
+   ]
+  },
+  {
+   "clause_id": "B7.2.1",
+   "entities": [
+    "energy deployment limitation",
+    "ers",
+    "technical regulations",
+    "f1 car",
+    "competition",
+    "fia",
+    "competitor",
+    "overtake",
+    "total time classified session",
+    "lap time classified session",
+    "control line",
+    "detection gap",
+    "detection line",
+    "activation line",
+    "low grip conditions",
+    "sprint",
+    "race",
+    "boost mode",
+    "fia-f1-doc-058",
+    "fia-f1-doc-034",
+    "championship",
+    "circuit"
+   ]
+  },
+  {
+   "clause_id": "B7.2.2",
+   "entities": [
+    "overtake",
+    "lap time classified session",
+    "total time classified session",
+    "leader",
+    "detection line",
+    "safety car",
+    "safety car period",
+    "f1 car",
+    "control line",
+    "pit entry road",
+    "pit lane",
+    "low grip conditions",
+    "race director"
+   ]
+  },
+  {
+   "clause_id": "B7.2.3",
+   "entities": [
+    "overtake",
+    "driver",
+    "fia standard ecu",
+    "lap time classified session",
+    "total time classified session",
+    "activation line",
+    "detection line",
+    "detection gap",
+    "f1 car"
+   ]
+  },
+  {
+   "clause_id": "B7.2.4",
+   "entities": [
+    "overtake",
+    "competitor",
+    "race director",
+    "driver",
+    "detection gap",
+    "detection line",
+    "f1 car"
+   ]
+  }
+ ],
+ "relationships": [
+  {
+   "subject": "driver adjustable bodywork",
+   "relation": "HAS_PART",
+   "object": "front wing profile",
+   "context": "both controlled by the FIA Standard ECU",
+   "source_ids": [
+    "B7.1.1"
+   ]
+  },
+  {
+   "subject": "driver adjustable bodywork",
+   "relation": "HAS_PART",
+   "object": "rear wing flap",
+   "context": "both controlled by the FIA Standard ECU",
+   "source_ids": [
+    "B7.1.1"
+   ]
+  },
+  {
+   "subject": "driver adjustable bodywork",
+   "relation": "DEFINED_IN",
+   "object": "technical regulations",
+   "context": "Articles C3.10.10 and C3.11.6; Corner Mode = deactivated, Straight Mode = activated",
+   "source_ids": [
+    "B7.1.1"
+   ]
+  },
+  {
+   "subject": "driver adjustable bodywork",
+   "relation": "OCCURS_AT",
+   "object": "activation zone",
+   "context": "full activation: front wing profiles and RW flap both in Straight Mode",
+   "source_ids": [
+    "B7.1.1"
+   ]
+  },
+  {
+   "subject": "driver adjustable bodywork",
+   "relation": "OCCURS_AT",
+   "object": "low grip activation zone",
+   "context": "partial activation: front wing profiles in Straight Mode, RW flap in Corner Mode",
+   "source_ids": [
+    "B7.1.1"
+   ]
+  },
+  {
+   "subject": "fia",
+   "relation": "CONTROLS",
+   "object": "activation zone",
+   "context": "given to Competitors 4 weeks before; later changes need unanimous agreement, but the FIA may change them for safety",
+   "source_ids": [
+    "B7.1.1"
+   ]
+  },
+  {
+   "subject": "fia",
+   "relation": "CONTROLS",
+   "object": "low grip activation zone",
+   "context": "given to Competitors 4 weeks before; later changes need unanimous agreement, but the FIA may change them for safety",
+   "source_ids": [
+    "B7.1.1"
+   ]
+  },
+  {
+   "subject": "driver adjustable bodywork",
+   "relation": "REQUIRES",
+   "object": "fia standard ecu",
+   "context": "driver may activate it only when notified via the Control Electronics that it is enabled",
+   "source_ids": [
+    "B7.1.2"
+   ]
+  },
+  {
+   "subject": "driver adjustable bodywork",
+   "relation": "APPLIES_DURING",
+   "object": "low grip conditions",
+   "context": "only partial activation, in the Low Grip Activation Zones",
+   "source_ids": [
+    "B7.1.2"
+   ]
+  },
+  {
+   "subject": "energy deployment limitation",
+   "relation": "DEFINED_IN",
+   "object": "technical regulations",
+   "context": "ERS-K power limits in C5.2.8, Recharge limits in C5.2.10, power reduction in C5.12",
+   "source_ids": [
+    "B7.2.1"
+   ]
+  },
+  {
+   "subject": "energy deployment limitation",
+   "relation": "DEFINED_IN",
+   "object": "fia-f1-doc-034",
+   "context": "vehicle fundamentals used to justify changes",
+   "source_ids": [
+    "B7.2.1"
+   ]
+  },
+  {
+   "subject": "fia",
+   "relation": "CONTROLS",
+   "object": "energy deployment limitation",
+   "context": "per-Competition limits given 4 weeks before; provisional season document by 30 June; may be changed for safety at any time",
+   "source_ids": [
+    "B7.2.1"
+   ]
+  },
+  {
+   "subject": "fia",
+   "relation": "CONTROLS",
+   "object": "detection gap",
+   "context": "set per Competition with the energy limits",
+   "source_ids": [
+    "B7.2.1"
+   ]
+  },
+  {
+   "subject": "fia",
+   "relation": "CONTROLS",
+   "object": "detection line",
+   "context": "set per Competition with the energy limits",
+   "source_ids": [
+    "B7.2.1"
+   ]
+  },
+  {
+   "subject": "fia",
+   "relation": "CONTROLS",
+   "object": "activation line",
+   "context": "set per Competition with the energy limits",
+   "source_ids": [
+    "B7.2.1"
+   ]
+  },
+  {
+   "subject": "energy deployment limitation",
+   "relation": "APPLIES_DURING",
+   "object": "championship",
+   "context": "the C5.2.10ii Recharge limit applies at most 12 Competitions, of which at most four below 5 MJ",
+   "source_ids": [
+    "B7.2.1"
+   ]
+  },
+  {
+   "subject": "energy deployment limitation",
+   "relation": "APPLIES_DURING",
+   "object": "low grip conditions",
+   "context": "power reduction reset only in the last sector before the control line in an LTCS; never in a TTCS",
+   "source_ids": [
+    "B7.2.1"
+   ]
+  },
+  {
+   "subject": "boost mode",
+   "relation": "APPLIES_DURING",
+   "object": "low grip conditions",
+   "context": "allowed only to stop the power demand from being reduced, not to increase it",
+   "source_ids": [
+    "B7.2.1"
+   ]
+  },
+  {
+   "subject": "boost mode",
+   "relation": "DEFINED_IN",
+   "object": "fia-f1-doc-058",
+   "context": null,
+   "source_ids": [
+    "B7.2.1"
+   ]
+  },
+  {
+   "subject": "overtake",
+   "relation": "APPLIES_DURING",
+   "object": "total time classified session",
+   "context": "extra Recharge on a lap when Overtake is enabled and activated at the control line",
+   "source_ids": [
+    "B7.2.1"
+   ]
+  },
+  {
+   "subject": "overtake",
+   "relation": "APPLIES_DURING",
+   "object": "lap time classified session",
+   "context": "enabled before the start",
+   "source_ids": [
+    "B7.2.2"
+   ]
+  },
+  {
+   "subject": "overtake",
+   "relation": "APPLIES_DURING",
+   "object": "total time classified session",
+   "context": "disabled at the start or resumption; enabled once the leader first crosses the Detection Line",
+   "source_ids": [
+    "B7.2.2"
+   ]
+  },
+  {
+   "subject": "overtake",
+   "relation": "APPLIES_DURING",
+   "object": "safety car period",
+   "context": "disabled; re-enabled after all cars cross the control line once the safety car enters the pit entry road",
+   "source_ids": [
+    "B7.2.2"
+   ]
+  },
+  {
+   "subject": "overtake",
+   "relation": "APPLIES_DURING",
+   "object": "low grip conditions",
+   "context": "disabled",
+   "source_ids": [
+    "B7.2.2"
+   ]
+  },
+  {
+   "subject": "race director",
+   "relation": "CONTROLS",
+   "object": "overtake",
+   "context": "may disable or re-enable it for safety at their sole discretion",
+   "source_ids": [
+    "B7.2.2"
+   ]
+  },
+  {
+   "subject": "overtake",
+   "relation": "REQUIRES",
+   "object": "fia standard ecu",
+   "context": "driver may use it only when notified via the Control Electronics that it is enabled and activated",
+   "source_ids": [
+    "B7.2.3"
+   ]
+  },
+  {
+   "subject": "overtake",
+   "relation": "APPLIES_DURING",
+   "object": "lap time classified session",
+   "context": "always activated when enabled",
+   "source_ids": [
+    "B7.2.3"
+   ]
+  },
+  {
+   "subject": "detection gap",
+   "relation": "DETERMINES",
+   "object": "overtake",
+   "context": "TTCS: within the gap of another car at the Detection Line means activated at the Activation Line; outside it means deactivated",
+   "source_ids": [
+    "B7.2.3"
+   ]
+  },
+  {
+   "subject": "overtake",
+   "relation": "OCCURS_AT",
+   "object": "activation line",
+   "context": null,
+   "source_ids": [
+    "B7.2.3"
+   ]
+  },
+  {
+   "subject": "overtake",
+   "relation": "OCCURS_AT",
+   "object": "detection line",
+   "context": "gap to the car ahead is measured here",
+   "source_ids": [
+    "B7.2.3"
+   ]
+  },
+  {
+   "subject": "race director",
+   "relation": "CONTROLS",
+   "object": "overtake",
+   "context": "may allow manual operation if the notification system fails; the Competitor is then responsible for correct use",
+   "source_ids": [
+    "B7.2.4"
+   ]
+  }
+ ]
+}

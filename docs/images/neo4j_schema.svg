@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="1060" viewBox="0 0 1500 1060" font-family="Menlo, Consolas, monospace" font-size="13">
+<defs><marker id="a" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#555"/></marker></defs>
+<rect width="1500" height="1060" fill="#ffffff"/>
+<text x="40" y="45" font-size="22" font-weight="bold" fill="#222">F1 Regulations GraphRAG — Neo4j schema</text>
+<text x="40" y="70" font-size="13" fill="#666">v2: with entity embeddings + hybrid search indexes</text>
+<rect x="40" y="130" width="380" height="188" rx="10" fill="#fafafa" stroke="#4C8EDA" stroke-width="2.5"/>
+<path d="M40,140 a10,10 0 0 1 10,-10 h360 a10,10 0 0 1 10,10 v48 h-380 z" fill="#4C8EDA"/>
+<text x="54" y="155" font-size="17" font-weight="bold" fill="#fff">:Chunk</text>
+<text x="54" y="176" font-size="12" fill="#fff">394 nodes</text>
+<text x="54" y="213" fill="#222"><tspan font-weight="bold">id</tspan><tspan fill="#777"> : string</tspan></text>
+<text x="408" y="213" fill="#999" font-size="11" text-anchor="end">e.g. B1.6.3#0</text>
+<text x="54" y="235" fill="#222"><tspan font-weight="bold">clause_id</tspan><tspan fill="#777"> : string</tspan></text>
+<text x="408" y="235" fill="#999" font-size="11" text-anchor="end">clause it belongs to</text>
+<text x="54" y="257" fill="#222"><tspan font-weight="bold">chunk</tspan><tspan fill="#777"> : int</tspan></text>
+<text x="408" y="257" fill="#999" font-size="11" text-anchor="end">chunk number in clause</text>
+<text x="54" y="279" fill="#222"><tspan font-weight="bold">text</tspan><tspan fill="#777"> : string</tspan></text>
+<text x="408" y="279" fill="#999" font-size="11" text-anchor="end">full-text: chunk_fulltext</text>
+<text x="54" y="301" fill="#222"><tspan font-weight="bold">embedding</tspan><tspan fill="#777"> : list&lt;float&gt;</tspan></text>
+<text x="408" y="301" fill="#999" font-size="11" text-anchor="end">vector: chunk_embedding</text>
+<rect x="560" y="130" width="420" height="232" rx="10" fill="#fafafa" stroke="#DA7194" stroke-width="2.5"/>
+<path d="M560,140 a10,10 0 0 1 10,-10 h400 a10,10 0 0 1 10,10 v48 h-420 z" fill="#DA7194"/>
+<text x="574" y="155" font-size="17" font-weight="bold" fill="#fff">:Provision</text>
+<text x="574" y="176" font-size="12" fill="#fff">:Article 15 | :Section 64 | :Clause 331</text>
+<text x="574" y="213" fill="#222"><tspan font-weight="bold">id</tspan><tspan fill="#777"> : string</tspan></text>
+<text x="968" y="213" fill="#999" font-size="11" text-anchor="end">e.g. B1.6.3</text>
+<text x="574" y="235" fill="#222"><tspan font-weight="bold">level</tspan><tspan fill="#777"> : string</tspan></text>
+<text x="968" y="235" fill="#999" font-size="11" text-anchor="end">article/section/clause</text>
+<text x="574" y="257" fill="#222"><tspan font-weight="bold">title</tspan><tspan fill="#777"> : string</tspan></text>
+<text x="574" y="279" fill="#222"><tspan font-weight="bold">text</tspan><tspan fill="#777"> : string</tspan></text>
+<text x="574" y="301" fill="#222"><tspan font-weight="bold">parent</tspan><tspan fill="#777"> : string</tspan></text>
+<text x="968" y="301" fill="#999" font-size="11" text-anchor="end">Section, Clause only</text>
+<text x="574" y="323" fill="#222"><tspan font-weight="bold">advisory_committee</tspan><tspan fill="#777"> : string</tspan></text>
+<text x="968" y="323" fill="#999" font-size="11" text-anchor="end">Article only</text>
+<text x="574" y="345" fill="#222"><tspan font-weight="bold">governance</tspan><tspan fill="#777"> : string</tspan></text>
+<text x="968" y="345" fill="#999" font-size="11" text-anchor="end">Article only</text>
+<rect x="1100" y="130" width="360" height="144" rx="10" fill="#fafafa" stroke="#57C7E3" stroke-width="2.5"/>
+<path d="M1100,140 a10,10 0 0 1 10,-10 h340 a10,10 0 0 1 10,10 v48 h-360 z" fill="#57C7E3"/>
+<text x="1114" y="155" font-size="17" font-weight="bold" fill="#fff">:Term</text>
+<text x="1114" y="176" font-size="12" fill="#fff">24 nodes (Appendix B1 glossary)</text>
+<text x="1114" y="213" fill="#222"><tspan font-weight="bold">name</tspan><tspan fill="#777"> : string</tspan></text>
+<text x="1114" y="235" fill="#222"><tspan font-weight="bold">definition</tspan><tspan fill="#777"> : string</tspan></text>
+<text x="1114" y="257" fill="#222"><tspan font-weight="bold">abbreviation</tspan><tspan fill="#777"> : string</tspan></text>
+<text x="1448" y="257" fill="#999" font-size="11" text-anchor="end">optional (17 have one)</text>
+<rect x="560" y="560" width="420" height="210" rx="10" fill="#fafafa" stroke="#F79767" stroke-width="2.5"/>
+<path d="M560,570 a10,10 0 0 1 10,-10 h400 a10,10 0 0 1 10,10 v48 h-420 z" fill="#F79767"/>
+<text x="574" y="585" font-size="17" font-weight="bold" fill="#fff">:Entity</text>
+<text x="574" y="606" font-size="12" fill="#fff">339 nodes, + 2nd label for type:</text>
+<text x="574" y="643" fill="#222"><tspan font-weight="bold">name</tspan><tspan fill="#777"> : string</tspan></text>
+<text x="968" y="643" fill="#999" font-size="11" text-anchor="end">canonical, lowercase</text>
+<text x="574" y="665" fill="#222"><tspan font-weight="bold">type</tspan><tspan fill="#777"> : string</tspan></text>
+<text x="968" y="665" fill="#999" font-size="11" text-anchor="end">same as 2nd label</text>
+<text x="574" y="687" fill="#222"><tspan font-weight="bold">aliases</tspan><tspan fill="#777"> : list&lt;string&gt;</tspan></text>
+<text x="574" y="709" fill="#222"><tspan font-weight="bold">mention_count</tspan><tspan fill="#777"> : int</tspan></text>
+<text x="968" y="709" fill="#999" font-size="11" text-anchor="end">provisions mentioning it</text>
+<text x="574" y="731" fill="#222"><tspan font-weight="bold">card</tspan><tspan fill="#777"> : string</tspan></text>
+<text x="968" y="731" fill="#999" font-size="11" text-anchor="end">text that gets embedded</text>
+<text x="574" y="753" fill="#222"><tspan font-weight="bold">embedding</tspan><tspan fill="#777"> : list&lt;float&gt;</tspan></text>
+<text x="968" y="753" fill="#999" font-size="11" text-anchor="end">vector: entity_embedding</text>
+<text x="560" y="792" font-size="12" fill="#B8602F">Equipment 55 · Procedure 52 · Signal 38 · Location 34</text>
+<text x="560" y="809" font-size="12" fill="#B8602F">Official 34 · Participant 26 · Event 24 · Document 22 · Infringement 21 · Session 19 · Penalty 14</text>
+<line x1="420" y1="230" x2="560" y2="230" stroke="#555" stroke-width="1.6" marker-end="url(#a)"/>
+<text x="490" y="222" font-weight="bold" fill="#333" text-anchor="middle">CHUNK_OF</text>
+<text x="490" y="250" font-size="11" fill="#888" text-anchor="middle">394 · to :Clause</text>
+<line x1="980" y1="230" x2="1100" y2="230" stroke="#555" stroke-width="1.6" marker-end="url(#a)"/>
+<text x="1040" y="222" font-weight="bold" fill="#333" text-anchor="middle">USES_TERM</text>
+<text x="1040" y="250" font-size="11" fill="#888" text-anchor="middle">362</text>
+<path d="M620,130 C610,60 690,60 680,130" fill="none" stroke="#555" stroke-width="1.6" marker-end="url(#a)"/>
+<text x="650" y="47" font-weight="bold" fill="#333" text-anchor="middle">PART_OF</text>
+<text x="650" y="62" font-size="11" fill="#888" text-anchor="middle">395 · child→parent</text>
+<path d="M820,130 C810,60 890,60 880,130" fill="none" stroke="#555" stroke-width="1.6" marker-end="url(#a)"/>
+<text x="850" y="47" font-weight="bold" fill="#333" text-anchor="middle">REFERENCES</text>
+<text x="850" y="62" font-size="11" fill="#888" text-anchor="middle">259 · cites</text>
+<line x1="770" y1="362" x2="770" y2="560" stroke="#555" stroke-width="1.6" marker-end="url(#a)"/>
+<text x="850" y="465" font-weight="bold" fill="#333" text-anchor="middle">MENTIONS</text>
+<text x="850" y="480" font-size="11" fill="#888" text-anchor="middle">2519 · :Clause → :Entity</text>
+<line x1="980" y1="600" x2="1280" y2="274" stroke="#555" stroke-width="1.6" marker-end="url(#a)"/>
+<text x="1250" y="470" font-weight="bold" fill="#333" text-anchor="middle">IS_TERM</text>
+<text x="1250" y="485" font-size="11" fill="#888" text-anchor="middle">24</text>
+<path d="M560,620 C470,590 470,710 560,680" fill="none" stroke="#555" stroke-width="1.6" marker-end="url(#a)"/>
+<rect x="40" y="520" width="400" height="355" rx="10" fill="#fff7f2" stroke="#F79767" stroke-dasharray="5,4"/>
+<text x="54" y="544" font-weight="bold" fill="#333">Entity → Entity facts (824)</text>
+<text x="54" y="564" font-size="12" fill="#666">props: source_ids : list&lt;string&gt;, context : string?</text>
+<text x="64" y="588" font-size="12" fill="#333">APPLIES_DURING 181</text>
+<text x="64" y="607" font-size="12" fill="#333">CONTROLS 136</text>
+<text x="64" y="626" font-size="12" fill="#333">REQUIRES 110</text>
+<text x="64" y="645" font-size="12" fill="#333">SIGNALS 65</text>
+<text x="64" y="664" font-size="12" fill="#333">PUNISHABLE_BY 58</text>
+<text x="64" y="683" font-size="12" fill="#333">HAS_PART 44</text>
+<text x="64" y="702" font-size="12" fill="#333">OCCURS_AT 43</text>
+<text x="64" y="721" font-size="12" fill="#333">MAY_IMPOSE 40</text>
+<text x="64" y="740" font-size="12" fill="#333">DEFINED_IN 37</text>
+<text x="64" y="759" font-size="12" fill="#333">PRECEDES 28</text>
+<text x="64" y="778" font-size="12" fill="#333">TYPE_OF 23</text>
+<text x="64" y="797" font-size="12" fill="#333">DETERMINES 20</text>
+<text x="64" y="816" font-size="12" fill="#333">APPOINTS 18</text>
+<text x="64" y="835" font-size="12" fill="#333">ALLOCATES 14</text>
+<text x="64" y="854" font-size="12" fill="#333">REPORTS_TO 7</text>
+<rect x="1060" y="560" width="400" height="212" rx="10" fill="#f3f7fd" stroke="#4C8EDA" stroke-dasharray="5,4"/>
+<text x="1074" y="584" font-weight="bold" fill="#333">Search indexes</text>
+<text x="1074" y="602" font-size="11" fill="#666">embeddings: BAAI/bge-small-en-v1.5 (fastembed)</text>
+<text x="1074" y="630" font-size="13" fill="#222"><tspan font-weight="bold">chunk_embedding</tspan><tspan fill="#777"> : VECTOR</tspan></text>
+<text x="1084" y="647" font-size="11" fill="#555">on Chunk.embedding</text>
+<text x="1084" y="662" font-size="11" fill="#888">384-d, cosine · semantic seed search</text>
+<text x="1074" y="682" font-size="13" fill="#222"><tspan font-weight="bold">chunk_fulltext</tspan><tspan fill="#777"> : FULLTEXT</tspan></text>
+<text x="1084" y="699" font-size="11" fill="#555">on Chunk.text</text>
+<text x="1084" y="714" font-size="11" fill="#888">BM25, english analyzer · keyword half of hybrid</text>
+<text x="1074" y="734" font-size="13" fill="#222"><tspan font-weight="bold">entity_embedding</tspan><tspan fill="#777"> : VECTOR</tspan></text>
+<text x="1084" y="751" font-size="11" fill="#555">on Entity.embedding</text>
+<text x="1084" y="766" font-size="11" fill="#888">384-d, cosine · question → entities (focus)</text>
+<text x="40" y="1000" font-size="12" fill="#666">Boxes = node labels (like tables), rows = properties.</text>
+<text x="40" y="1018" font-size="12" fill="#666">Arrows = relationship types, with counts. Only the facts carry properties.</text>
+<text x="40" y="1036" font-size="12" fill="#666">Unique keys: Provision.id, Term.name, Entity.name, Chunk.id.</text>
+</svg>

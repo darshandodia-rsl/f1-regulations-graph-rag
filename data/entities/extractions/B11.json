@@ -1,0 +1,1044 @@
+{
+ "article": "B11",
+ "mentions": [
+  {
+   "clause_id": "B11.1.1",
+   "entities": [
+    "competitor",
+    "fia",
+    "testing of previous car",
+    "promotional event",
+    "demonstration event",
+    "driver",
+    "circuit"
+   ]
+  },
+  {
+   "clause_id": "B11.1.2",
+   "entities": [
+    "fia observer",
+    "testing of previous car",
+    "promotional event",
+    "demonstration event",
+    "competitor",
+    "circuit"
+   ]
+  },
+  {
+   "clause_id": "B11.2.1",
+   "entities": [
+    "testing of current car",
+    "tyre supplier",
+    "fia",
+    "competitor",
+    "out-of-competition tyre testing",
+    "circuit",
+    "championship",
+    "competition"
+   ]
+  },
+  {
+   "clause_id": "B11.2.2",
+   "entities": [
+    "testing of current car",
+    "out-of-competition tyre testing",
+    "current car",
+    "previous car",
+    "mule car",
+    "track"
+   ]
+  },
+  {
+   "clause_id": "B11.2.3",
+   "entities": [
+    "testing of current car",
+    "f1 car",
+    "driver",
+    "super licence",
+    "rear light",
+    "track"
+   ]
+  },
+  {
+   "clause_id": "B11.2.4",
+   "entities": [
+    "testing of current car",
+    "red flag"
+   ]
+  },
+  {
+   "clause_id": "B11.2.5",
+   "entities": [
+    "testing of current car",
+    "refuelling"
+   ]
+  },
+  {
+   "clause_id": "B11.2.6",
+   "entities": [
+    "testing of current car",
+    "appendix h of the isc",
+    "international sporting code"
+   ]
+  },
+  {
+   "clause_id": "B11.2.7",
+   "entities": [
+    "testing of current car",
+    "pre-season private collective testing",
+    "pre-season public collective testing",
+    "post-season test",
+    "out-of-competition tyre testing",
+    "substitute driver test",
+    "competitor",
+    "commercial rights holder",
+    "fia",
+    "f1 car",
+    "pit lane",
+    "covering of components",
+    "floor bodywork",
+    "wet-weather tyre",
+    "tyre supplier",
+    "competition",
+    "championship",
+    "circuit",
+    "technical regulations",
+    "super licence",
+    "young driver",
+    "fia international a licence",
+    "power unit",
+    "race",
+    "replacement driver",
+    "driver",
+    "tyre"
+   ]
+  },
+  {
+   "clause_id": "B11.3.1",
+   "entities": [
+    "testing of previous car"
+   ]
+  },
+  {
+   "clause_id": "B11.3.2",
+   "entities": [
+    "testing of previous car",
+    "previous car",
+    "competition",
+    "testing of current car",
+    "championship"
+   ]
+  },
+  {
+   "clause_id": "B11.3.3",
+   "entities": [
+    "fia",
+    "testing of previous car",
+    "competitor"
+   ]
+  },
+  {
+   "clause_id": "B11.3.4",
+   "entities": [
+    "competitor",
+    "testing of previous car"
+   ]
+  },
+  {
+   "clause_id": "B11.3.5",
+   "entities": [
+    "testing of previous car",
+    "fia grade 1 circuit",
+    "circuit",
+    "competition",
+    "championship",
+    "fia"
+   ]
+  },
+  {
+   "clause_id": "B11.3.6",
+   "entities": [
+    "competitor",
+    "testing of previous car"
+   ]
+  },
+  {
+   "clause_id": "B11.3.7",
+   "entities": [
+    "competitor",
+    "testing of previous car",
+    "driver",
+    "championship",
+    "replacement driver"
+   ]
+  },
+  {
+   "clause_id": "B11.3.8",
+   "entities": [
+    "testing of previous car",
+    "tyre",
+    "tyre supplier"
+   ]
+  },
+  {
+   "clause_id": "B11.4.1",
+   "entities": [
+    "testing of mule car",
+    "mule car",
+    "fia",
+    "tyre",
+    "championship"
+   ]
+  },
+  {
+   "clause_id": "B11.4.2",
+   "entities": [
+    "testing of mule car",
+    "competitor",
+    "fia",
+    "tyre supplier"
+   ]
+  },
+  {
+   "clause_id": "B11.4.3",
+   "entities": [
+    "testing of mule car",
+    "red flag"
+   ]
+  },
+  {
+   "clause_id": "B11.4.4",
+   "entities": [
+    "testing of mule car",
+    "refuelling"
+   ]
+  },
+  {
+   "clause_id": "B11.4.5",
+   "entities": [
+    "testing of mule car",
+    "mule car",
+    "current car",
+    "previous car",
+    "track"
+   ]
+  },
+  {
+   "clause_id": "B11.4.6",
+   "entities": [
+    "testing of mule car",
+    "appendix h of the isc",
+    "international sporting code"
+   ]
+  },
+  {
+   "clause_id": "B11.4.7",
+   "entities": [
+    "testing of mule car",
+    "fia grade 1 circuit",
+    "track"
+   ]
+  },
+  {
+   "clause_id": "B11.4.8",
+   "entities": [
+    "fia",
+    "testing of mule car",
+    "mule car",
+    "competitor"
+   ]
+  },
+  {
+   "clause_id": "B11.4.9",
+   "entities": [
+    "testing of mule car",
+    "tyre",
+    "tyre supplier",
+    "fia",
+    "championship"
+   ]
+  },
+  {
+   "clause_id": "B11.4.10",
+   "entities": [
+    "fia",
+    "competitor",
+    "tyre supplier",
+    "testing of mule car",
+    "driver",
+    "super licence",
+    "competition",
+    "championship",
+    "circuit",
+    "mule car",
+    "f1 car",
+    "testing of current car",
+    "race"
+   ]
+  },
+  {
+   "clause_id": "B11.4.11",
+   "entities": [
+    "testing of mule car",
+    "mule car",
+    "competitor",
+    "fia",
+    "testing of current car",
+    "testing of previous car",
+    "tyre supplier",
+    "tyre"
+   ]
+  },
+  {
+   "clause_id": "B11.5.1",
+   "entities": [
+    "testing of historic car",
+    "historic car"
+   ]
+  },
+  {
+   "clause_id": "B11.5.2",
+   "entities": [
+    "testing of historic car",
+    "tyre",
+    "tyre supplier"
+   ]
+  },
+  {
+   "clause_id": "B11.6.1",
+   "entities": [
+    "competitor",
+    "promotional event",
+    "current car",
+    "testing of current car"
+   ]
+  },
+  {
+   "clause_id": "B11.6.2",
+   "entities": [
+    "promotional event",
+    "competitor"
+   ]
+  },
+  {
+   "clause_id": "B11.6.3",
+   "entities": [
+    "promotional event",
+    "tyre",
+    "tyre supplier"
+   ]
+  },
+  {
+   "clause_id": "B11.7.1",
+   "entities": [
+    "fia",
+    "competitor",
+    "demonstration event",
+    "current car",
+    "testing of current car",
+    "commercial rights holder"
+   ]
+  },
+  {
+   "clause_id": "B11.7.2",
+   "entities": [
+    "demonstration event",
+    "current car"
+   ]
+  },
+  {
+   "clause_id": "B11.7.3",
+   "entities": [
+    "demonstration event",
+    "previous car"
+   ]
+  },
+  {
+   "clause_id": "B11.7.4",
+   "entities": [
+    "demonstration event",
+    "fia standard ecu",
+    "technical regulations"
+   ]
+  },
+  {
+   "clause_id": "B11.7.5",
+   "entities": [
+    "demonstration event",
+    "tyre",
+    "tyre supplier"
+   ]
+  },
+  {
+   "clause_id": "B11.8.1",
+   "entities": [
+    "competitor",
+    "testing of current car",
+    "testing of previous car",
+    "testing of mule car",
+    "promotional event",
+    "technical regulations",
+    "driver",
+    "team personnel",
+    "marshal",
+    "fia",
+    "f1 car",
+    "fia standard ecu"
+   ]
+  },
+  {
+   "clause_id": "B11.8.2",
+   "entities": [
+    "testing of current car",
+    "testing of previous car",
+    "testing of mule car",
+    "impact warning light",
+    "driver",
+    "medical centre",
+    "medical examination"
+   ]
+  },
+  {
+   "clause_id": "B11.8.3",
+   "entities": [
+    "post-season test",
+    "out-of-competition tyre testing",
+    "fia",
+    "competitor",
+    "testing of previous car",
+    "technical regulations",
+    "competition",
+    "testing of current car",
+    "tyre"
+   ]
+  },
+  {
+   "clause_id": "B11.8.4",
+   "entities": [
+    "post-season test",
+    "testing of previous car",
+    "out-of-competition tyre testing",
+    "tyre supplier"
+   ]
+  },
+  {
+   "clause_id": "B11.8.5",
+   "entities": [
+    "young driver",
+    "f1 car",
+    "post-season test",
+    "testing of previous car",
+    "competitor",
+    "out-of-competition tyre testing",
+    "tyre supplier",
+    "fia",
+    "tyre"
+   ]
+  }
+ ],
+ "relationships": [
+  {
+   "subject": "competitor",
+   "relation": "REPORTS_TO",
+   "object": "fia",
+   "context": "declare any planned TPC, PE or DE to the FIA and all Competitors at least 7 days before (amendable until 72 h): cars, drivers, type, dates, purpose, venue",
+   "source_ids": [
+    "B11.1.1"
+   ]
+  },
+  {
+   "subject": "fia observer",
+   "relation": "APPLIES_DURING",
+   "object": "testing of previous car",
+   "context": "may be appointed to attend; the Competitor must arrange access",
+   "source_ids": [
+    "B11.1.2"
+   ]
+  },
+  {
+   "subject": "fia observer",
+   "relation": "APPLIES_DURING",
+   "object": "promotional event",
+   "context": "may be appointed to attend; the Competitor must arrange access",
+   "source_ids": [
+    "B11.1.2"
+   ]
+  },
+  {
+   "subject": "fia observer",
+   "relation": "APPLIES_DURING",
+   "object": "demonstration event",
+   "context": "may be appointed to attend; the Competitor must arrange access",
+   "source_ids": [
+    "B11.1.2"
+   ]
+  },
+  {
+   "subject": "testing of current car",
+   "relation": "OCCURS_AT",
+   "object": "circuit",
+   "context": "09:00-19:00, max 9 h continuous; circuits in Europe unless most Competitors and the FIA agree (or for tyre testing); never during a Competition",
+   "source_ids": [
+    "B11.2.1"
+   ]
+  },
+  {
+   "subject": "testing of current car",
+   "relation": "REQUIRES",
+   "object": "current car",
+   "context": "no other type of car on track",
+   "source_ids": [
+    "B11.2.2"
+   ]
+  },
+  {
+   "subject": "out-of-competition tyre testing",
+   "relation": "REQUIRES",
+   "object": "current car",
+   "context": "only these types on track",
+   "source_ids": [
+    "B11.2.2"
+   ]
+  },
+  {
+   "subject": "out-of-competition tyre testing",
+   "relation": "REQUIRES",
+   "object": "previous car",
+   "context": "only these types on track",
+   "source_ids": [
+    "B11.2.2"
+   ]
+  },
+  {
+   "subject": "out-of-competition tyre testing",
+   "relation": "REQUIRES",
+   "object": "mule car",
+   "context": "only these types on track",
+   "source_ids": [
+    "B11.2.2"
+   ]
+  },
+  {
+   "subject": "f1 car",
+   "relation": "REQUIRES",
+   "object": "rear light",
+   "context": "TCC: blue main rear light lit at all times if the driver doesn't qualify for a Super Licence",
+   "source_ids": [
+    "B11.2.3"
+   ]
+  },
+  {
+   "subject": "testing of current car",
+   "relation": "HAS_PART",
+   "object": "pre-season private collective testing",
+   "context": "one 5-day test between 5 and 31 Jan 2026; three running days per Competitor; one car per day",
+   "source_ids": [
+    "B11.2.7"
+   ]
+  },
+  {
+   "subject": "testing of current car",
+   "relation": "HAS_PART",
+   "object": "pre-season public collective testing",
+   "context": "two 3-day tests from 7 Feb to 7 days before the first Competition; one car per day; a wet-tyre day possible",
+   "source_ids": [
+    "B11.2.7"
+   ]
+  },
+  {
+   "subject": "testing of current car",
+   "relation": "HAS_PART",
+   "object": "post-season test",
+   "context": "one day at the last Competition's circuit, at least 36 h after it; two Section C cars: one tyre-test car, one young-driver car",
+   "source_ids": [
+    "B11.2.7"
+   ]
+  },
+  {
+   "subject": "testing of current car",
+   "relation": "HAS_PART",
+   "object": "out-of-competition tyre testing",
+   "context": "max 40 car days organised by the FIA with the Competitors and the Tyre Supplier",
+   "source_ids": [
+    "B11.2.7"
+   ]
+  },
+  {
+   "subject": "testing of current car",
+   "relation": "HAS_PART",
+   "object": "substitute driver test",
+   "context": "one day for a new driver with no F1 race in the previous two years; within 14 days of the substitution; not at a current-season circuit; one car",
+   "source_ids": [
+    "B11.2.7"
+   ]
+  },
+  {
+   "subject": "covering of components",
+   "relation": "APPLIES_DURING",
+   "object": "pre-season public collective testing",
+   "context": "B3.3 cover rules apply, except when the floor is off or while repairing a damaged car",
+   "source_ids": [
+    "B11.2.7"
+   ]
+  },
+  {
+   "subject": "post-season test",
+   "relation": "REQUIRES",
+   "object": "super licence",
+   "context": "tyre-test car driven by drivers holding or qualifying for a Super Licence",
+   "source_ids": [
+    "B11.2.7"
+   ]
+  },
+  {
+   "subject": "post-season test",
+   "relation": "REQUIRES",
+   "object": "young driver",
+   "context": "second car for young drivers: FIA International A Licence and no more than two F1 races",
+   "source_ids": [
+    "B11.2.7"
+   ]
+  },
+  {
+   "subject": "young driver",
+   "relation": "REQUIRES",
+   "object": "fia international a licence",
+   "context": null,
+   "source_ids": [
+    "B11.2.7"
+   ]
+  },
+  {
+   "subject": "out-of-competition tyre testing",
+   "relation": "REQUIRES",
+   "object": "super licence",
+   "context": "Full Super Licence eligibility plus one F1 Competition or 500 km in a recent car at racing speed",
+   "source_ids": [
+    "B11.2.7"
+   ]
+  },
+  {
+   "subject": "fia",
+   "relation": "CONTROLS",
+   "object": "out-of-competition tyre testing",
+   "context": "organised for the Tyre Supplier to test design improvements; at a current-season circuit only after its Competition",
+   "source_ids": [
+    "B11.2.7"
+   ]
+  },
+  {
+   "subject": "substitute driver test",
+   "relation": "REQUIRES",
+   "object": "replacement driver",
+   "context": "if the new driver then isn't entered, the Competitor loses one pre-season TCC day next year",
+   "source_ids": [
+    "B11.2.7"
+   ]
+  },
+  {
+   "subject": "testing of previous car",
+   "relation": "REQUIRES",
+   "object": "previous car",
+   "context": "built to the period's specification, with components/software already used in a Competition or TCC of that period",
+   "source_ids": [
+    "B11.3.2"
+   ]
+  },
+  {
+   "subject": "fia",
+   "relation": "CONTROLS",
+   "object": "testing of previous car",
+   "context": "may approve non-compliant components or software for cost, reliability, safety, availability or track reasons, on formal request",
+   "source_ids": [
+    "B11.3.3"
+   ]
+  },
+  {
+   "subject": "testing of previous car",
+   "relation": "OCCURS_AT",
+   "object": "fia grade 1 circuit",
+   "context": "not at a current-season circuit within 60 days of its Competition, nor one missing from last year's calendar or significantly modified",
+   "source_ids": [
+    "B11.3.5"
+   ]
+  },
+  {
+   "subject": "testing of previous car",
+   "relation": "APPLIES_DURING",
+   "object": "championship",
+   "context": "max 20 days a year; max 1000 km a year with current or intended race drivers, over at most four days; replacements count as the original",
+   "source_ids": [
+    "B11.3.7"
+   ]
+  },
+  {
+   "subject": "tyre supplier",
+   "relation": "ALLOCATES",
+   "object": "tyre",
+   "context": "TPC: only tyres made specifically for it",
+   "source_ids": [
+    "B11.3.8"
+   ]
+  },
+  {
+   "subject": "fia",
+   "relation": "CONTROLS",
+   "object": "mule car",
+   "context": "TMC cars limited to the minimal modifications needed to test development tyres or FIA components",
+   "source_ids": [
+    "B11.4.1"
+   ]
+  },
+  {
+   "subject": "fia",
+   "relation": "CONTROLS",
+   "object": "testing of mule car",
+   "context": "09:00-19:00 unless all participants, the FIA and the Tyre Supplier agree; max 9 h continuous",
+   "source_ids": [
+    "B11.4.2"
+   ]
+  },
+  {
+   "subject": "testing of mule car",
+   "relation": "REQUIRES",
+   "object": "mule car",
+   "context": "only these types on track",
+   "source_ids": [
+    "B11.4.5"
+   ]
+  },
+  {
+   "subject": "testing of mule car",
+   "relation": "REQUIRES",
+   "object": "current car",
+   "context": "only these types on track",
+   "source_ids": [
+    "B11.4.5"
+   ]
+  },
+  {
+   "subject": "testing of mule car",
+   "relation": "REQUIRES",
+   "object": "previous car",
+   "context": "only these types on track",
+   "source_ids": [
+    "B11.4.5"
+   ]
+  },
+  {
+   "subject": "testing of mule car",
+   "relation": "OCCURS_AT",
+   "object": "fia grade 1 circuit",
+   "context": null,
+   "source_ids": [
+    "B11.4.7"
+   ]
+  },
+  {
+   "subject": "fia",
+   "relation": "CONTROLS",
+   "object": "testing of mule car",
+   "context": "may approve components/software outside the Mule Car definition, on formal request",
+   "source_ids": [
+    "B11.4.8"
+   ]
+  },
+  {
+   "subject": "tyre supplier",
+   "relation": "ALLOCATES",
+   "object": "tyre",
+   "context": "TMC: development tyres for next season, or tyres the FIA and supplier agree on",
+   "source_ids": [
+    "B11.4.9"
+   ]
+  },
+  {
+   "subject": "fia",
+   "relation": "CONTROLS",
+   "object": "testing of mule car",
+   "context": "max 10 car days a year, organised with the Competitors and, if needed, the Tyre Supplier",
+   "source_ids": [
+    "B11.4.10"
+   ]
+  },
+  {
+   "subject": "testing of mule car",
+   "relation": "REQUIRES",
+   "object": "super licence",
+   "context": "Full Super Licence eligibility plus one F1 Competition or 500 km in a current car at racing speed",
+   "source_ids": [
+    "B11.4.10"
+   ]
+  },
+  {
+   "subject": "testing of mule car",
+   "relation": "OCCURS_AT",
+   "object": "circuit",
+   "context": "before that circuit's Competition only with a previous-four-years car, a driver not entered in the Championship (within 60 days), and a circuit on last year's calendar",
+   "source_ids": [
+    "B11.4.10"
+   ]
+  },
+  {
+   "subject": "testing of mule car",
+   "relation": "REQUIRES",
+   "object": "mule car",
+   "context": "1 Jan to the first Competition: previous-four-years mule car; after it: current-regs or previous-four-years mule car",
+   "source_ids": [
+    "B11.4.10"
+   ]
+  },
+  {
+   "subject": "fia",
+   "relation": "CONTROLS",
+   "object": "mule car",
+   "context": "no parts or software giving unrelated information; changes only if needed for the test and approved by the FIA",
+   "source_ids": [
+    "B11.4.11"
+   ]
+  },
+  {
+   "subject": "tyre supplier",
+   "relation": "CONTROLS",
+   "object": "testing of mule car",
+   "context": "when tyres are tested: set-up changes and sensors agreed with the supplier and the FIA; sensor data shared with the supplier",
+   "source_ids": [
+    "B11.4.11"
+   ]
+  },
+  {
+   "subject": "testing of historic car",
+   "relation": "REQUIRES",
+   "object": "historic car",
+   "context": "built to the period's specification",
+   "source_ids": [
+    "B11.5.1"
+   ]
+  },
+  {
+   "subject": "tyre supplier",
+   "relation": "ALLOCATES",
+   "object": "tyre",
+   "context": "THC: tyres made for it, or tyres of the period",
+   "source_ids": [
+    "B11.5.2"
+   ]
+  },
+  {
+   "subject": "promotional event",
+   "relation": "REQUIRES",
+   "object": "current car",
+   "context": "two PEs per Competitor; not counted as TCC",
+   "source_ids": [
+    "B11.6.1"
+   ]
+  },
+  {
+   "subject": "tyre supplier",
+   "relation": "ALLOCATES",
+   "object": "tyre",
+   "context": "PE: only tyres made specifically for it",
+   "source_ids": [
+    "B11.6.3"
+   ]
+  },
+  {
+   "subject": "fia",
+   "relation": "CONTROLS",
+   "object": "demonstration event",
+   "context": "at its discretion: two DEs per Competitor with a Current Car, plus CRH-organised DEs; not counted as TCC",
+   "source_ids": [
+    "B11.7.1"
+   ]
+  },
+  {
+   "subject": "demonstration event",
+   "relation": "REQUIRES",
+   "object": "current car",
+   "context": null,
+   "source_ids": [
+    "B11.7.1"
+   ]
+  },
+  {
+   "subject": "demonstration event",
+   "relation": "REQUIRES",
+   "object": "current car",
+   "context": "max 15 km per event",
+   "source_ids": [
+    "B11.7.2"
+   ]
+  },
+  {
+   "subject": "demonstration event",
+   "relation": "REQUIRES",
+   "object": "previous car",
+   "context": "max 50 km per event",
+   "source_ids": [
+    "B11.7.3"
+   ]
+  },
+  {
+   "subject": "demonstration event",
+   "relation": "REQUIRES",
+   "object": "fia standard ecu",
+   "context": "Article C8.2",
+   "source_ids": [
+    "B11.7.4"
+   ]
+  },
+  {
+   "subject": "tyre supplier",
+   "relation": "ALLOCATES",
+   "object": "tyre",
+   "context": "DE: only tyres made specifically for it",
+   "source_ids": [
+    "B11.7.5"
+   ]
+  },
+  {
+   "subject": "testing of current car",
+   "relation": "REQUIRES",
+   "object": "fia standard ecu",
+   "context": null,
+   "source_ids": [
+    "B11.8.1"
+   ]
+  },
+  {
+   "subject": "testing of current car",
+   "relation": "REQUIRES",
+   "object": "technical regulations",
+   "context": "cars passed the static and dynamic tests and meet all safety requirements of the relevant year; sensor exceptions notified 7 days ahead",
+   "source_ids": [
+    "B11.8.1"
+   ]
+  },
+  {
+   "subject": "testing of previous car",
+   "relation": "REQUIRES",
+   "object": "fia standard ecu",
+   "context": null,
+   "source_ids": [
+    "B11.8.1"
+   ]
+  },
+  {
+   "subject": "testing of previous car",
+   "relation": "REQUIRES",
+   "object": "technical regulations",
+   "context": "cars passed the static and dynamic tests and meet all safety requirements of the relevant year; sensor exceptions notified 7 days ahead",
+   "source_ids": [
+    "B11.8.1"
+   ]
+  },
+  {
+   "subject": "testing of mule car",
+   "relation": "REQUIRES",
+   "object": "fia standard ecu",
+   "context": null,
+   "source_ids": [
+    "B11.8.1"
+   ]
+  },
+  {
+   "subject": "testing of mule car",
+   "relation": "REQUIRES",
+   "object": "technical regulations",
+   "context": "cars passed the static and dynamic tests and meet all safety requirements of the relevant year; sensor exceptions notified 7 days ahead",
+   "source_ids": [
+    "B11.8.1"
+   ]
+  },
+  {
+   "subject": "promotional event",
+   "relation": "REQUIRES",
+   "object": "fia standard ecu",
+   "context": null,
+   "source_ids": [
+    "B11.8.1"
+   ]
+  },
+  {
+   "subject": "promotional event",
+   "relation": "REQUIRES",
+   "object": "technical regulations",
+   "context": "cars passed the static and dynamic tests and meet all safety requirements of the relevant year; sensor exceptions notified 7 days ahead",
+   "source_ids": [
+    "B11.8.1"
+   ]
+  },
+  {
+   "subject": "medical examination",
+   "relation": "OCCURS_AT",
+   "object": "medical centre",
+   "context": "after an incident in TCC, TPC or TMC that activates the Impact Warning Light, without delay",
+   "source_ids": [
+    "B11.8.2"
+   ]
+  },
+  {
+   "subject": "fia",
+   "relation": "CONTROLS",
+   "object": "post-season test",
+   "context": "no test parts giving unrelated information; component/software changes only if needed for the tyre test and approved",
+   "source_ids": [
+    "B11.8.3"
+   ]
+  },
+  {
+   "subject": "fia",
+   "relation": "CONTROLS",
+   "object": "out-of-competition tyre testing",
+   "context": "no test parts giving unrelated information; component/software changes only if needed for the tyre test and approved",
+   "source_ids": [
+    "B11.8.3"
+   ]
+  },
+  {
+   "subject": "fia",
+   "relation": "CONTROLS",
+   "object": "testing of previous car",
+   "context": "no parts, sensors or tests giving information about current-Championship cars",
+   "source_ids": [
+    "B11.8.3"
+   ]
+  },
+  {
+   "subject": "tyre supplier",
+   "relation": "CONTROLS",
+   "object": "out-of-competition tyre testing",
+   "context": "set-up and driver control changes only if needed for the tyre test, agreed in advance",
+   "source_ids": [
+    "B11.8.4"
+   ]
+  },
+  {
+   "subject": "tyre supplier",
+   "relation": "CONTROLS",
+   "object": "post-season test",
+   "context": "tyre-test car: extra sensors only for tyre state, agreed with the supplier and the FIA; data shared with the supplier",
+   "source_ids": [
+    "B11.8.5"
+   ]
+  },
+  {
+   "subject": "tyre supplier",
+   "relation": "CONTROLS",
+   "object": "out-of-competition tyre testing",
+   "context": "tyre-test car: extra sensors only for tyre state, agreed with the supplier and the FIA; data shared with the supplier",
+   "source_ids": [
+    "B11.8.5"
+   ]
+  },
+  {
+   "subject": "fia",
+   "relation": "CONTROLS",
+   "object": "testing of previous car",
+   "context": "extra logging and sensors prohibited, as on the post-season young-driver car",
+   "source_ids": [
+    "B11.8.5"
+   ]
+  }
+ ]
+}

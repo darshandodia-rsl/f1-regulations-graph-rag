@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>F1 Regulations Helper</title>
+<meta name="description" content="Ask a question about the 2026 F1 Sporting Regulations and get an answer with the clauses it comes from.">
+<meta name="theme-color" content="#1a1a1a">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Mona+Sans:wdth,wght@75..125,400..600&family=Geist+Mono:wght@400..500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="app.css">
+</head>
+<body>
+<header class="top">
+  <a class="brand" href="/" aria-label="F1 Regulations Helper, new search"><span class="mark" aria-hidden="true"></span>F1 Regulations Helper</a>
+</header>
+
+<main class="page" id="page">
+  <h1 class="greeting"><span class="mark mark--lg" aria-hidden="true"></span>Ask the 2026 F1 rulebook</h1>
+
+  <form class="composer" id="search" role="search" action="/" method="get">
+    <label class="sr-only" for="q">Your question about the 2026 F1 Sporting Regulations</label>
+    <textarea id="q" name="q" rows="1" maxlength="500" placeholder="What would you like to know about the regulations?"></textarea>
+    <div class="composer__foot">
+      <span class="composer__meta">Sporting Regulations · Section B · Issue 09</span>
+      <button class="send" type="submit" aria-label="Search" disabled>
+        <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M8 13V3.5M3.8 7.5 8 3.3l4.2 4.2" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </button>
+    </div>
+  </form>
+
+  <div class="results" id="results" hidden aria-live="polite"></div>
+</main>
+
+<script type="module" src="app.js"></script>
+</body>
+</html>

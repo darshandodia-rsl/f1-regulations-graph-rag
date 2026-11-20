@@ -1,0 +1,1015 @@
+{
+ "article": "B3",
+ "mentions": [
+  {
+   "clause_id": "B3.1.1",
+   "entities": [
+    "competitor",
+    "scrutineering",
+    "f1 car",
+    "fp1",
+    "technical delegate",
+    "scrutineering declaration",
+    "fia"
+   ]
+  },
+  {
+   "clause_id": "B3.1.2",
+   "entities": [
+    "f1 car",
+    "competition",
+    "scrutineering declaration",
+    "technical delegate",
+    "competitor"
+   ]
+  },
+  {
+   "clause_id": "B3.1.3",
+   "entities": [
+    "competitor",
+    "f1 car",
+    "survival cell",
+    "scrutineering",
+    "scrutineering declaration",
+    "technical delegate",
+    "standard format competition",
+    "alternative format competition",
+    "fp1",
+    "fp3",
+    "pit lane exit",
+    "race",
+    "sprint"
+   ]
+  },
+  {
+   "clause_id": "B3.1.4",
+   "entities": [
+    "scrutineer",
+    "f1 car",
+    "competitor",
+    "competition",
+    "cover",
+    "sprint qualifying",
+    "qualifying",
+    "sprint",
+    "race",
+    "formation lap",
+    "fia",
+    "fia seal",
+    "technical delegate"
+   ]
+  },
+  {
+   "clause_id": "B3.1.5",
+   "entities": [
+    "race director",
+    "f1 car"
+   ]
+  },
+  {
+   "clause_id": "B3.1.6",
+   "entities": [
+    "scrutineering",
+    "official",
+    "parc fermé",
+    "competitor"
+   ]
+  },
+  {
+   "clause_id": "B3.1.7",
+   "entities": [
+    "competition",
+    "competitor",
+    "technical delegate",
+    "scrutineering"
+   ]
+  },
+  {
+   "clause_id": "B3.1.8",
+   "entities": [
+    "steward",
+    "scrutineer",
+    "f1 car",
+    "competition",
+    "fia f1 regulations"
+   ]
+  },
+  {
+   "clause_id": "B3.2.1",
+   "entities": [
+    "weighing",
+    "lap time classified session",
+    "sprint qualifying",
+    "qualifying",
+    "f1 car",
+    "driver",
+    "fia garage",
+    "internal combustion engine",
+    "steward",
+    "technical delegate",
+    "pit lane",
+    "fia scales",
+    "designated garage area",
+    "medical centre",
+    "parc fermé",
+    "q3",
+    "sq3",
+    "weighing breach"
+   ]
+  },
+  {
+   "clause_id": "B3.2.2",
+   "entities": [
+    "weighing",
+    "total time classified session",
+    "f1 car",
+    "driver",
+    "technical delegate"
+   ]
+  },
+  {
+   "clause_id": "B3.2.3",
+   "entities": [
+    "f1 car",
+    "disqualification",
+    "technical regulations",
+    "weighing",
+    "underweight car"
+   ]
+  },
+  {
+   "clause_id": "B3.2.4",
+   "entities": [
+    "f1 car",
+    "total time classified session",
+    "weighing",
+    "scrutineer"
+   ]
+  },
+  {
+   "clause_id": "B3.2.5",
+   "entities": [
+    "weighing breach",
+    "steward",
+    "f1 car",
+    "grid place penalty",
+    "disqualification",
+    "driver",
+    "total time classified session"
+   ]
+  },
+  {
+   "clause_id": "B3.3.1",
+   "entities": [
+    "covering of components",
+    "fp1",
+    "cover",
+    "f1 car",
+    "paddock",
+    "designated garage area",
+    "pit lane",
+    "starting grid"
+   ]
+  },
+  {
+   "clause_id": "B3.3.2",
+   "entities": [
+    "covering of components",
+    "cover",
+    "internal combustion engine",
+    "floor bodywork",
+    "pit lane"
+   ]
+  },
+  {
+   "clause_id": "B3.3.3",
+   "entities": [
+    "cover",
+    "f1 car",
+    "rear wing bodywork",
+    "internal combustion engine",
+    "starting grid",
+    "parc fermé",
+    "pit lane",
+    "tyre",
+    "tyre supplier",
+    "tyre blanket",
+    "technical regulations"
+   ]
+  },
+  {
+   "clause_id": "B3.4.1",
+   "entities": [
+    "standard format competition",
+    "sealing of cars",
+    "restricted period three",
+    "competitor",
+    "fp2",
+    "f1 car",
+    "pit lane",
+    "fia seal",
+    "cover",
+    "floor bodywork",
+    "nose bodywork",
+    "front wing bodywork",
+    "rear wing bodywork",
+    "technical regulations",
+    "parc fermé camera",
+    "restricted period breach",
+    "fp3"
+   ]
+  },
+  {
+   "clause_id": "B3.4.2",
+   "entities": [
+    "alternative format competition",
+    "sealing of cars",
+    "sprint qualifying",
+    "f1 car",
+    "pit lane",
+    "fia seal",
+    "technical delegate",
+    "competitor",
+    "parc fermé conditions",
+    "driver",
+    "penalty",
+    "formation lap",
+    "sprint",
+    "cover"
+   ]
+  },
+  {
+   "clause_id": "B3.4.3",
+   "entities": [
+    "competition",
+    "sealing of cars",
+    "qualifying",
+    "f1 car",
+    "pit lane",
+    "fia seal",
+    "technical delegate",
+    "competitor",
+    "parc fermé conditions",
+    "driver",
+    "penalty",
+    "formation lap",
+    "race",
+    "cover"
+   ]
+  },
+  {
+   "clause_id": "B3.4.4",
+   "entities": [
+    "f1 car",
+    "cover",
+    "fia seal"
+   ]
+  },
+  {
+   "clause_id": "B3.5.1",
+   "entities": [
+    "f1 car",
+    "parc fermé conditions",
+    "pit lane",
+    "sprint qualifying",
+    "sprint",
+    "qualifying",
+    "race",
+    "sq1",
+    "q1"
+   ]
+  },
+  {
+   "clause_id": "B3.5.2",
+   "entities": [
+    "competitor",
+    "technical delegate",
+    "suspension set-up sheet",
+    "f1 car",
+    "pit lane",
+    "sprint qualifying",
+    "qualifying"
+   ]
+  },
+  {
+   "clause_id": "B3.5.3",
+   "entities": [
+    "parc fermé conditions",
+    "technical delegate",
+    "f1 car",
+    "sealing of cars",
+    "parc fermé breach",
+    "standard format competition",
+    "alternative format competition",
+    "driver",
+    "race",
+    "sprint",
+    "qualifying",
+    "pit lane start"
+   ]
+  },
+  {
+   "clause_id": "B3.5.4",
+   "entities": [
+    "f1 car",
+    "parc fermé conditions",
+    "scrutineer",
+    "pit lane",
+    "technical delegate",
+    "competitor",
+    "fia",
+    "sprint qualifying",
+    "qualifying",
+    "starting grid",
+    "sprint",
+    "reconnaissance lap",
+    "race"
+   ]
+  },
+  {
+   "clause_id": "B3.5.5",
+   "entities": [
+    "championship",
+    "front wing bodywork",
+    "rear wing bodywork",
+    "rear bodywork",
+    "floor bodywork",
+    "pre-season public collective testing",
+    "sprint qualifying",
+    "qualifying",
+    "total time classified session",
+    "parc fermé conditions"
+   ]
+  },
+  {
+   "clause_id": "B3.5.6",
+   "entities": [
+    "sprint qualifying",
+    "qualifying",
+    "fia",
+    "f1 car",
+    "competitor",
+    "parc fermé"
+   ]
+  },
+  {
+   "clause_id": "B3.5.7",
+   "entities": [
+    "scrutineer",
+    "f1 car",
+    "parc fermé conditions",
+    "front wing bodywork"
+   ]
+  },
+  {
+   "clause_id": "B3.5.8",
+   "entities": [
+    "scrutineer",
+    "f1 car",
+    "parc fermé conditions",
+    "parc fermé camera",
+    "competitor",
+    "designated garage area",
+    "competition",
+    "fia-f1-doc-079"
+   ]
+  },
+  {
+   "clause_id": "B3.5.9",
+   "entities": [
+    "technical delegate",
+    "f1 car",
+    "parc fermé conditions",
+    "competitor",
+    "race"
+   ]
+  },
+  {
+   "clause_id": "B3.6.1",
+   "entities": [
+    "official",
+    "parc fermé"
+   ]
+  },
+  {
+   "clause_id": "B3.6.2",
+   "entities": [
+    "parc fermé",
+    "parc fermé conditions",
+    "control line"
+   ]
+  },
+  {
+   "clause_id": "B3.6.3",
+   "entities": [
+    "parc fermé",
+    "team personnel",
+    "f1 car",
+    "official"
+   ]
+  },
+  {
+   "clause_id": "B3.6.4",
+   "entities": [
+    "driver",
+    "weighing",
+    "helmet"
+   ]
+  },
+  {
+   "clause_id": "B3.6.5",
+   "entities": [
+    "driver",
+    "parc fermé conditions"
+   ]
+  }
+ ],
+ "relationships": [
+  {
+   "subject": "competitor",
+   "relation": "REQUIRES",
+   "object": "scrutineering",
+   "context": "initial scrutineering starts 4 h before FP1",
+   "source_ids": [
+    "B3.1.1"
+   ]
+  },
+  {
+   "subject": "competitor",
+   "relation": "REQUIRES",
+   "object": "scrutineering declaration",
+   "context": "submitted no later than 2 h before FP1 unless the technical delegate allows otherwise; template provided by the FIA",
+   "source_ids": [
+    "B3.1.1"
+   ]
+  },
+  {
+   "subject": "scrutineering",
+   "relation": "PRECEDES",
+   "object": "fp1",
+   "context": null,
+   "source_ids": [
+    "B3.1.1"
+   ]
+  },
+  {
+   "subject": "f1 car",
+   "relation": "REQUIRES",
+   "object": "scrutineering declaration",
+   "context": "may not take part until it is submitted and confirmed complete by the technical delegate",
+   "source_ids": [
+    "B3.1.2"
+   ]
+  },
+  {
+   "subject": "technical delegate",
+   "relation": "CONTROLS",
+   "object": "scrutineering declaration",
+   "context": "confirms it is fully and correctly completed",
+   "source_ids": [
+    "B3.1.2"
+   ]
+  },
+  {
+   "subject": "competitor",
+   "relation": "REQUIRES",
+   "object": "scrutineering declaration",
+   "context": "new declaration after a survival cell change",
+   "source_ids": [
+    "B3.1.3"
+   ]
+  },
+  {
+   "subject": "technical delegate",
+   "relation": "CONTROLS",
+   "object": "scrutineering declaration",
+   "context": "approves the new declaration after a survival cell change",
+   "source_ids": [
+    "B3.1.3"
+   ]
+  },
+  {
+   "subject": "f1 car",
+   "relation": "HAS_PART",
+   "object": "survival cell",
+   "context": null,
+   "source_ids": [
+    "B3.1.3"
+   ]
+  },
+  {
+   "subject": "scrutineer",
+   "relation": "CONTROLS",
+   "object": "f1 car",
+   "context": "may check eligibility at any time, require dismantling, require parts or samples, and charge reasonable expenses",
+   "source_ids": [
+    "B3.1.4"
+   ]
+  },
+  {
+   "subject": "technical delegate",
+   "relation": "CONTROLS",
+   "object": "fia seal",
+   "context": "seals on shipped parts may only be broken with their written consent",
+   "source_ids": [
+    "B3.1.4"
+   ]
+  },
+  {
+   "subject": "race director",
+   "relation": "CONTROLS",
+   "object": "f1 car",
+   "context": "may require a car involved in an accident to be stopped and checked",
+   "source_ids": [
+    "B3.1.5"
+   ]
+  },
+  {
+   "subject": "official",
+   "relation": "CONTROLS",
+   "object": "scrutineering",
+   "context": "duly appointed officials; only they may give instructions to Competitors",
+   "source_ids": [
+    "B3.1.6"
+   ]
+  },
+  {
+   "subject": "official",
+   "relation": "CONTROLS",
+   "object": "parc fermé",
+   "context": "duly appointed officials; only they may give instructions to Competitors",
+   "source_ids": [
+    "B3.1.6"
+   ]
+  },
+  {
+   "subject": "technical delegate",
+   "relation": "CONTROLS",
+   "object": "scrutineering",
+   "context": "from 24 h before the Competition, Competitors must supply team-specific tools and fixtures on request",
+   "source_ids": [
+    "B3.1.7"
+   ]
+  },
+  {
+   "subject": "weighing",
+   "relation": "APPLIES_DURING",
+   "object": "lap time classified session",
+   "context": null,
+   "source_ids": [
+    "B3.2.1"
+   ]
+  },
+  {
+   "subject": "weighing",
+   "relation": "APPLIES_DURING",
+   "object": "sprint qualifying",
+   "context": null,
+   "source_ids": [
+    "B3.2.1"
+   ]
+  },
+  {
+   "subject": "weighing",
+   "relation": "APPLIES_DURING",
+   "object": "qualifying",
+   "context": null,
+   "source_ids": [
+    "B3.2.1"
+   ]
+  },
+  {
+   "subject": "weighing",
+   "relation": "APPLIES_DURING",
+   "object": "q3",
+   "context": "all cars that took part are weighed at the end",
+   "source_ids": [
+    "B3.2.1"
+   ]
+  },
+  {
+   "subject": "weighing",
+   "relation": "APPLIES_DURING",
+   "object": "sq3",
+   "context": "all cars that took part are weighed at the end",
+   "source_ids": [
+    "B3.2.1"
+   ]
+  },
+  {
+   "subject": "weighing",
+   "relation": "OCCURS_AT",
+   "object": "fia garage",
+   "context": "driver goes straight there when signalled and stops the engine",
+   "source_ids": [
+    "B3.2.1"
+   ]
+  },
+  {
+   "subject": "weighing",
+   "relation": "OCCURS_AT",
+   "object": "fia scales",
+   "context": "drivers weighed without undue delay after their last period or after stopping on track",
+   "source_ids": [
+    "B3.2.1"
+   ]
+  },
+  {
+   "subject": "technical delegate",
+   "relation": "CONTROLS",
+   "object": "weighing",
+   "context": "weighs each driver at the end of the last period they take part in",
+   "source_ids": [
+    "B3.2.1"
+   ]
+  },
+  {
+   "subject": "weighing breach",
+   "relation": "APPLIES_DURING",
+   "object": "weighing",
+   "context": "not stopping when signalled, or working on the car before it reaches the FIA garage: referred to the stewards",
+   "source_ids": [
+    "B3.2.1"
+   ]
+  },
+  {
+   "subject": "weighing",
+   "relation": "APPLIES_DURING",
+   "object": "total time classified session",
+   "context": "any classified car may be weighed",
+   "source_ids": [
+    "B3.2.2"
+   ]
+  },
+  {
+   "subject": "underweight car",
+   "relation": "PUNISHABLE_BY",
+   "object": "disqualification",
+   "context": "unless the shortfall is from accidental loss of a component",
+   "source_ids": [
+    "B3.2.3"
+   ]
+  },
+  {
+   "subject": "underweight car",
+   "relation": "DEFINED_IN",
+   "object": "technical regulations",
+   "context": "minimum weight in Article C4.1",
+   "source_ids": [
+    "B3.2.3"
+   ]
+  },
+  {
+   "subject": "weighing breach",
+   "relation": "PUNISHABLE_BY",
+   "object": "grid place penalty",
+   "context": null,
+   "source_ids": [
+    "B3.2.5"
+   ]
+  },
+  {
+   "subject": "weighing breach",
+   "relation": "PUNISHABLE_BY",
+   "object": "disqualification",
+   "context": "from the TTCS",
+   "source_ids": [
+    "B3.2.5"
+   ]
+  },
+  {
+   "subject": "steward",
+   "relation": "MAY_IMPOSE",
+   "object": "grid place penalty",
+   "context": "weighing breach",
+   "source_ids": [
+    "B3.2.5"
+   ]
+  },
+  {
+   "subject": "steward",
+   "relation": "MAY_IMPOSE",
+   "object": "disqualification",
+   "context": "weighing breach",
+   "source_ids": [
+    "B3.2.5"
+   ]
+  },
+  {
+   "subject": "covering of components",
+   "relation": "OCCURS_AT",
+   "object": "paddock",
+   "context": "from 29 h before FP1 no cover may obscure any part of a car unless needed for mechanical reasons",
+   "source_ids": [
+    "B3.3.1"
+   ]
+  },
+  {
+   "subject": "covering of components",
+   "relation": "OCCURS_AT",
+   "object": "designated garage area",
+   "context": "from 29 h before FP1 no cover may obscure any part of a car unless needed for mechanical reasons",
+   "source_ids": [
+    "B3.3.1"
+   ]
+  },
+  {
+   "subject": "covering of components",
+   "relation": "OCCURS_AT",
+   "object": "pit lane",
+   "context": "from 29 h before FP1 no cover may obscure any part of a car unless needed for mechanical reasons",
+   "source_ids": [
+    "B3.3.1"
+   ]
+  },
+  {
+   "subject": "covering of components",
+   "relation": "OCCURS_AT",
+   "object": "starting grid",
+   "context": "from 29 h before FP1 no cover may obscure any part of a car unless needed for mechanical reasons",
+   "source_ids": [
+    "B3.3.1"
+   ]
+  },
+  {
+   "subject": "covering of components",
+   "relation": "REQUIRES",
+   "object": "cover",
+   "context": "not permitted: engine/gearbox/radiator covers while engines are moved, covers over spare wings, spare floors or rigs used as screens",
+   "source_ids": [
+    "B3.3.2"
+   ]
+  },
+  {
+   "subject": "tyre blanket",
+   "relation": "DEFINED_IN",
+   "object": "technical regulations",
+   "context": "Article C10.8.4",
+   "source_ids": [
+    "B3.3.3"
+   ]
+  },
+  {
+   "subject": "sealing of cars",
+   "relation": "APPLIES_DURING",
+   "object": "standard format competition",
+   "context": "cars covered and ready for FIA seals within 3 h of the end of FP2; seals removed 3 h before FP3",
+   "source_ids": [
+    "B3.4.1"
+   ]
+  },
+  {
+   "subject": "sealing of cars",
+   "relation": "REQUIRES",
+   "object": "parc fermé camera",
+   "context": "the complete car must stay in view of the camera",
+   "source_ids": [
+    "B3.4.1"
+   ]
+  },
+  {
+   "subject": "restricted period breach",
+   "relation": "APPLIES_DURING",
+   "object": "sealing of cars",
+   "context": "failing the FP2 sealing deadline counts as a Restricted Period 3 breach (single breach)",
+   "source_ids": [
+    "B3.4.1"
+   ]
+  },
+  {
+   "subject": "sealing of cars",
+   "relation": "PRECEDES",
+   "object": "fp3",
+   "context": null,
+   "source_ids": [
+    "B3.4.1"
+   ]
+  },
+  {
+   "subject": "sealing of cars",
+   "relation": "APPLIES_DURING",
+   "object": "alternative format competition",
+   "context": "within 2 h of the end of Sprint Qualifying; seals removed 3 h before the Sprint formation lap, parc fermé conditions continue",
+   "source_ids": [
+    "B3.4.2"
+   ]
+  },
+  {
+   "subject": "technical delegate",
+   "relation": "CONTROLS",
+   "object": "sealing of cars",
+   "context": "may extend the deadline by up to 2 h for one car per Competitor for marketing",
+   "source_ids": [
+    "B3.4.2",
+    "B3.4.3"
+   ]
+  },
+  {
+   "subject": "sealing of cars",
+   "relation": "APPLIES_DURING",
+   "object": "competition",
+   "context": "within 2 h of the end of Qualifying; seals removed 5 h before the Race formation lap, parc fermé conditions continue",
+   "source_ids": [
+    "B3.4.3"
+   ]
+  },
+  {
+   "subject": "parc fermé conditions",
+   "relation": "APPLIES_DURING",
+   "object": "sprint qualifying",
+   "context": "from first leaving the pit lane in Sprint Qualifying until the start of the Sprint (or end of SQ1 if it never leaves)",
+   "source_ids": [
+    "B3.5.1"
+   ]
+  },
+  {
+   "subject": "parc fermé conditions",
+   "relation": "APPLIES_DURING",
+   "object": "qualifying",
+   "context": "from first leaving the pit lane in Qualifying until the start of the Race (or end of Q1 if it never leaves)",
+   "source_ids": [
+    "B3.5.1"
+   ]
+  },
+  {
+   "subject": "competitor",
+   "relation": "REQUIRES",
+   "object": "suspension set-up sheet",
+   "context": "given to the technical delegate before each car first leaves the pit lane in Sprint Qualifying and Qualifying",
+   "source_ids": [
+    "B3.5.2"
+   ]
+  },
+  {
+   "subject": "technical delegate",
+   "relation": "CONTROLS",
+   "object": "parc fermé conditions",
+   "context": "only Appendix B2 work or work they approve; no part replaced or setup changed otherwise",
+   "source_ids": [
+    "B3.5.3"
+   ]
+  },
+  {
+   "subject": "parc fermé breach",
+   "relation": "PUNISHABLE_BY",
+   "object": "pit lane start",
+   "context": "SFC: start the Race from the pit lane",
+   "source_ids": [
+    "B3.5.3"
+   ]
+  },
+  {
+   "subject": "parc fermé breach",
+   "relation": "PUNISHABLE_BY",
+   "object": "pit lane start",
+   "context": "AFC: start the Sprint from the pit lane if breached before the Sprint, the Race if breached after the start of Qualifying",
+   "source_ids": [
+    "B3.5.3"
+   ]
+  },
+  {
+   "subject": "technical delegate",
+   "relation": "CONTROLS",
+   "object": "parc fermé conditions",
+   "context": "approves other work after a written request; replacement parts must match design, mass, inertia and function",
+   "source_ids": [
+    "B3.5.4"
+   ]
+  },
+  {
+   "subject": "scrutineer",
+   "relation": "CONTROLS",
+   "object": "parc fermé conditions",
+   "context": "removed or broken parts must stay in full view of the car's scrutineer",
+   "source_ids": [
+    "B3.5.4"
+   ]
+  },
+  {
+   "subject": "parc fermé conditions",
+   "relation": "REQUIRES",
+   "object": "front wing bodywork",
+   "context": "six times per Championship a replacement of different design may be approved if already used in public testing, SQ, Qualifying or a TTCS",
+   "source_ids": [
+    "B3.5.5"
+   ]
+  },
+  {
+   "subject": "parc fermé conditions",
+   "relation": "REQUIRES",
+   "object": "rear wing bodywork",
+   "context": "six times per Championship a replacement of different design may be approved if already used in public testing, SQ, Qualifying or a TTCS",
+   "source_ids": [
+    "B3.5.5"
+   ]
+  },
+  {
+   "subject": "parc fermé conditions",
+   "relation": "REQUIRES",
+   "object": "rear bodywork",
+   "context": "six times per Championship a replacement of different design may be approved if already used in public testing, SQ, Qualifying or a TTCS",
+   "source_ids": [
+    "B3.5.5"
+   ]
+  },
+  {
+   "subject": "parc fermé conditions",
+   "relation": "REQUIRES",
+   "object": "floor bodywork",
+   "context": "six times per Championship a replacement of different design may be approved if already used in public testing, SQ, Qualifying or a TTCS",
+   "source_ids": [
+    "B3.5.5"
+   ]
+  },
+  {
+   "subject": "fia",
+   "relation": "CONTROLS",
+   "object": "f1 car",
+   "context": "selects cars for further checks after Sprint Qualifying and Qualifying; they go to parc fermé immediately",
+   "source_ids": [
+    "B3.5.6"
+   ]
+  },
+  {
+   "subject": "parc fermé conditions",
+   "relation": "REQUIRES",
+   "object": "front wing bodywork",
+   "context": "suspension and aero settings (except the front wing) must be impossible to change without tools",
+   "source_ids": [
+    "B3.5.7"
+   ]
+  },
+  {
+   "subject": "scrutineer",
+   "relation": "CONTROLS",
+   "object": "parc fermé conditions",
+   "context": "one scrutineer per car to prevent unauthorised work",
+   "source_ids": [
+    "B3.5.8"
+   ]
+  },
+  {
+   "subject": "competitor",
+   "relation": "REQUIRES",
+   "object": "parc fermé camera",
+   "context": "one per car, directly above it in the designated garage area; uncovered and operational throughout the Competition",
+   "source_ids": [
+    "B3.5.8"
+   ]
+  },
+  {
+   "subject": "parc fermé camera",
+   "relation": "OCCURS_AT",
+   "object": "designated garage area",
+   "context": null,
+   "source_ids": [
+    "B3.5.8"
+   ]
+  },
+  {
+   "subject": "parc fermé camera",
+   "relation": "DEFINED_IN",
+   "object": "fia-f1-doc-079",
+   "context": null,
+   "source_ids": [
+    "B3.5.8"
+   ]
+  },
+  {
+   "subject": "official",
+   "relation": "CONTROLS",
+   "object": "parc fermé",
+   "context": "only supervising officials may enter; no intervention without their authorisation",
+   "source_ids": [
+    "B3.6.1"
+   ]
+  },
+  {
+   "subject": "parc fermé conditions",
+   "relation": "OCCURS_AT",
+   "object": "control line",
+   "context": "apply from the control line to the parc fermé entrance",
+   "source_ids": [
+    "B3.6.2"
+   ]
+  },
+  {
+   "subject": "official",
+   "relation": "CONTROLS",
+   "object": "parc fermé",
+   "context": "secured; max three team personnel per car, only to fit cooling fans or do work the officials require",
+   "source_ids": [
+    "B3.6.3"
+   ]
+  },
+  {
+   "subject": "driver",
+   "relation": "REQUIRES",
+   "object": "helmet",
+   "context": "must stay fully attired until weighed",
+   "source_ids": [
+    "B3.6.4"
+   ]
+  }
+ ]
+}

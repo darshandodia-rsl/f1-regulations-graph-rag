@@ -1,0 +1,501 @@
+{
+ "article": "B8",
+ "mentions": [
+  {
+   "clause_id": "B8.1.1",
+   "entities": [
+    "competitor",
+    "f1 car",
+    "competition",
+    "survival cell",
+    "technical delegate",
+    "fia"
+   ]
+  },
+  {
+   "clause_id": "B8.1.2",
+   "entities": [
+    "f1 car",
+    "survival cell",
+    "power unit",
+    "technical regulations",
+    "appendix c4"
+   ]
+  },
+  {
+   "clause_id": "B8.2.1",
+   "entities": [
+    "power unit",
+    "competition",
+    "championship",
+    "pu homologation dossier",
+    "fia seal"
+   ]
+  },
+  {
+   "clause_id": "B8.2.2",
+   "entities": [
+    "championship",
+    "driver",
+    "competitor",
+    "appendix c4",
+    "power unit",
+    "internal combustion engine",
+    "turbocharger",
+    "exhaust set",
+    "energy store",
+    "power unit control electronics",
+    "mgu-k",
+    "power unit ancillary component"
+   ]
+  },
+  {
+   "clause_id": "B8.2.3",
+   "entities": [
+    "driver",
+    "power unit",
+    "championship",
+    "power unit manufacturer"
+   ]
+  },
+  {
+   "clause_id": "B8.2.4",
+   "entities": [
+    "power unit ancillary component",
+    "driver",
+    "pu homologation dossier",
+    "fia",
+    "fia seal"
+   ]
+  },
+  {
+   "clause_id": "B8.2.5",
+   "entities": [
+    "fia",
+    "sspuc component",
+    "power unit"
+   ]
+  },
+  {
+   "clause_id": "B8.2.6",
+   "entities": [
+    "fia",
+    "sspuc component",
+    "championship",
+    "sspuc supplier",
+    "power unit manufacturer"
+   ]
+  },
+  {
+   "clause_id": "B8.2.7",
+   "entities": [
+    "driver",
+    "championship",
+    "replacement driver",
+    "power unit"
+   ]
+  },
+  {
+   "clause_id": "B8.2.8",
+   "entities": [
+    "driver",
+    "power unit",
+    "championship",
+    "grid place penalty",
+    "competition",
+    "race",
+    "f1 car",
+    "transponder",
+    "pit lane",
+    "power unit allocation exceeded"
+   ]
+  },
+  {
+   "clause_id": "B8.2.9",
+   "entities": [
+    "power unit manufacturer",
+    "fia",
+    "fia seal",
+    "power unit",
+    "competition",
+    "energy store",
+    "power unit control electronics",
+    "appendix c4",
+    "internal combustion engine",
+    "turbocharger",
+    "mgu-k",
+    "parc fermé",
+    "technical delegate",
+    "fp1",
+    "competitor",
+    "designated garage area",
+    "f1 car",
+    "championship"
+   ]
+  },
+  {
+   "clause_id": "B8.2.10",
+   "entities": [
+    "appendix c4",
+    "power unit",
+    "fia seal",
+    "fia",
+    "pu homologation dossier"
+   ]
+  },
+  {
+   "clause_id": "B8.2.11",
+   "entities": [
+    "minor part",
+    "appendix c4",
+    "fia",
+    "pu homologation dossier",
+    "fia seal"
+   ]
+  }
+ ],
+ "relationships": [
+  {
+   "subject": "competitor",
+   "relation": "REQUIRES",
+   "object": "f1 car",
+   "context": "max two cars available at any time, except while changing a survival cell",
+   "source_ids": [
+    "B8.1.1"
+   ]
+  },
+  {
+   "subject": "technical delegate",
+   "relation": "CONTROLS",
+   "object": "survival cell",
+   "context": "approves a change after genuine accident damage or a significant failure, on written request",
+   "source_ids": [
+    "B8.1.1"
+   ]
+  },
+  {
+   "subject": "f1 car",
+   "relation": "HAS_PART",
+   "object": "survival cell",
+   "context": "for B8.1 a car is a survival cell with a power unit (or parts of one) installed",
+   "source_ids": [
+    "B8.1.2"
+   ]
+  },
+  {
+   "subject": "f1 car",
+   "relation": "HAS_PART",
+   "object": "power unit",
+   "context": "for B8.1 a car is a survival cell with a power unit (or parts of one) installed",
+   "source_ids": [
+    "B8.1.2"
+   ]
+  },
+  {
+   "subject": "power unit",
+   "relation": "DEFINED_IN",
+   "object": "technical regulations",
+   "context": "Article C1 (Part B)",
+   "source_ids": [
+    "B8.1.2"
+   ]
+  },
+  {
+   "subject": "power unit",
+   "relation": "DEFINED_IN",
+   "object": "appendix c4",
+   "context": null,
+   "source_ids": [
+    "B8.1.2"
+   ]
+  },
+  {
+   "subject": "power unit",
+   "relation": "DEFINED_IN",
+   "object": "pu homologation dossier",
+   "context": "elements must conform to the latest approved homologation dossier when entered into the pool",
+   "source_ids": [
+    "B8.2.1"
+   ]
+  },
+  {
+   "subject": "power unit",
+   "relation": "REQUIRES",
+   "object": "fia seal",
+   "context": "only sealed elements may be used during a Competition",
+   "source_ids": [
+    "B8.2.1"
+   ]
+  },
+  {
+   "subject": "power unit",
+   "relation": "HAS_PART",
+   "object": "internal combustion engine",
+   "context": "max 3 per driver per Championship",
+   "source_ids": [
+    "B8.2.2"
+   ]
+  },
+  {
+   "subject": "internal combustion engine",
+   "relation": "DEFINED_IN",
+   "object": "appendix c4",
+   "context": null,
+   "source_ids": [
+    "B8.2.2"
+   ]
+  },
+  {
+   "subject": "power unit",
+   "relation": "HAS_PART",
+   "object": "turbocharger",
+   "context": "max 3 per driver per Championship",
+   "source_ids": [
+    "B8.2.2"
+   ]
+  },
+  {
+   "subject": "turbocharger",
+   "relation": "DEFINED_IN",
+   "object": "appendix c4",
+   "context": null,
+   "source_ids": [
+    "B8.2.2"
+   ]
+  },
+  {
+   "subject": "power unit",
+   "relation": "HAS_PART",
+   "object": "exhaust set",
+   "context": "max 3 per driver per Championship; its four parts are counted separately",
+   "source_ids": [
+    "B8.2.2"
+   ]
+  },
+  {
+   "subject": "exhaust set",
+   "relation": "DEFINED_IN",
+   "object": "appendix c4",
+   "context": null,
+   "source_ids": [
+    "B8.2.2"
+   ]
+  },
+  {
+   "subject": "power unit",
+   "relation": "HAS_PART",
+   "object": "energy store",
+   "context": "max 2 per driver per Championship",
+   "source_ids": [
+    "B8.2.2"
+   ]
+  },
+  {
+   "subject": "energy store",
+   "relation": "DEFINED_IN",
+   "object": "appendix c4",
+   "context": null,
+   "source_ids": [
+    "B8.2.2"
+   ]
+  },
+  {
+   "subject": "power unit",
+   "relation": "HAS_PART",
+   "object": "power unit control electronics",
+   "context": "max 2 per driver per Championship",
+   "source_ids": [
+    "B8.2.2"
+   ]
+  },
+  {
+   "subject": "power unit control electronics",
+   "relation": "DEFINED_IN",
+   "object": "appendix c4",
+   "context": null,
+   "source_ids": [
+    "B8.2.2"
+   ]
+  },
+  {
+   "subject": "power unit",
+   "relation": "HAS_PART",
+   "object": "mgu-k",
+   "context": "max 2 per driver per Championship",
+   "source_ids": [
+    "B8.2.2"
+   ]
+  },
+  {
+   "subject": "mgu-k",
+   "relation": "DEFINED_IN",
+   "object": "appendix c4",
+   "context": null,
+   "source_ids": [
+    "B8.2.2"
+   ]
+  },
+  {
+   "subject": "power unit",
+   "relation": "HAS_PART",
+   "object": "power unit ancillary component",
+   "context": "max 5 of each per driver per Championship",
+   "source_ids": [
+    "B8.2.2"
+   ]
+  },
+  {
+   "subject": "power unit ancillary component",
+   "relation": "DEFINED_IN",
+   "object": "appendix c4",
+   "context": null,
+   "source_ids": [
+    "B8.2.2"
+   ]
+  },
+  {
+   "subject": "power unit manufacturer",
+   "relation": "ALLOCATES",
+   "object": "power unit",
+   "context": "one extra unit of each element per driver in 2026, or with a PU Manufacturer in its first year of supply",
+   "source_ids": [
+    "B8.2.3"
+   ]
+  },
+  {
+   "subject": "power unit ancillary component",
+   "relation": "DEFINED_IN",
+   "object": "pu homologation dossier",
+   "context": "sealing or identification method approved by the FIA; may move between a driver's sealed elements without penalty",
+   "source_ids": [
+    "B8.2.4"
+   ]
+  },
+  {
+   "subject": "fia",
+   "relation": "CONTROLS",
+   "object": "sspuc component",
+   "context": "may authorise or mandate replacement for safety, policing or reliability",
+   "source_ids": [
+    "B8.2.5"
+   ]
+  },
+  {
+   "subject": "fia",
+   "relation": "CONTROLS",
+   "object": "sspuc component",
+   "context": "may raise the number permitted for a genuine reliability issue after consulting the SSPUC supplier and PU manufacturers",
+   "source_ids": [
+    "B8.2.6"
+   ]
+  },
+  {
+   "subject": "replacement driver",
+   "relation": "REQUIRES",
+   "object": "power unit",
+   "context": "counted as the original driver for power unit usage",
+   "source_ids": [
+    "B8.2.7"
+   ]
+  },
+  {
+   "subject": "power unit allocation exceeded",
+   "relation": "PUNISHABLE_BY",
+   "object": "grid place penalty",
+   "context": "first extra element of each type: 10 places; each later one: 5 places; cumulative; applied at the Competition where it is first used",
+   "source_ids": [
+    "B8.2.8"
+   ]
+  },
+  {
+   "subject": "grid place penalty",
+   "relation": "APPLIES_DURING",
+   "object": "race",
+   "context": "power unit element penalties",
+   "source_ids": [
+    "B8.2.8"
+   ]
+  },
+  {
+   "subject": "transponder",
+   "relation": "DETERMINES",
+   "object": "power unit allocation exceeded",
+   "context": "an element counts as used once the transponder shows the car left the pit lane",
+   "source_ids": [
+    "B8.2.8"
+   ]
+  },
+  {
+   "subject": "fia",
+   "relation": "CONTROLS",
+   "object": "fia seal",
+   "context": "seals each PU element before its first use, after consulting the PU manufacturer; ESME sealed to protect ES and PU-CE parts",
+   "source_ids": [
+    "B8.2.9"
+   ]
+  },
+  {
+   "subject": "technical delegate",
+   "relation": "CONTROLS",
+   "object": "fia seal",
+   "context": "agrees the sealing method; extra ICE/TC/MGU-K seals applied within 2 h of post-Race parc fermé, removed 50 h before FP1 on request",
+   "source_ids": [
+    "B8.2.9"
+   ]
+  },
+  {
+   "subject": "power unit",
+   "relation": "OCCURS_AT",
+   "object": "designated garage area",
+   "context": "elements stay there when not fitted; no cranking or starting until 26 h before FP1",
+   "source_ids": [
+    "B8.2.9"
+   ]
+  },
+  {
+   "subject": "power unit",
+   "relation": "REQUIRES",
+   "object": "fia seal",
+   "context": "parts with damaged or removed seals may not be reused unless removed under FIA supervision",
+   "source_ids": [
+    "B8.2.9"
+   ]
+  },
+  {
+   "subject": "power unit",
+   "relation": "DEFINED_IN",
+   "object": "appendix c4",
+   "context": "parts listed EXC in column 5 may be changed without a B8.2.8 penalty; breaking a seal requires FIA supervision",
+   "source_ids": [
+    "B8.2.10"
+   ]
+  },
+  {
+   "subject": "power unit",
+   "relation": "DEFINED_IN",
+   "object": "pu homologation dossier",
+   "context": "changed EXC parts must be homologated per Appendix C5",
+   "source_ids": [
+    "B8.2.10"
+   ]
+  },
+  {
+   "subject": "minor part",
+   "relation": "DEFINED_IN",
+   "object": "appendix c4",
+   "context": null,
+   "source_ids": [
+    "B8.2.11"
+   ]
+  },
+  {
+   "subject": "minor part",
+   "relation": "DEFINED_IN",
+   "object": "pu homologation dossier",
+   "context": "approved by the FIA; may be changed without penalty but without breaking a seal",
+   "source_ids": [
+    "B8.2.11"
+   ]
+  }
+ ]
+}

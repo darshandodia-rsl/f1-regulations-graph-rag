@@ -1,0 +1,1026 @@
+{
+ "article": "B6",
+ "mentions": [
+  {
+   "clause_id": "B6.1.1",
+   "entities": [
+    "tyre supplier",
+    "fia",
+    "competition",
+    "dry-weather tyre",
+    "intermediate tyre",
+    "wet-weather tyre",
+    "track",
+    "standard format competition",
+    "in-competition tyre evaluation",
+    "in-competition tyre testing",
+    "competitor"
+   ]
+  },
+  {
+   "clause_id": "B6.1.2",
+   "entities": [
+    "fia",
+    "tyre supplier",
+    "competitor",
+    "competition",
+    "in-competition tyre testing",
+    "driver",
+    "mandatory race tyre specification",
+    "race",
+    "standard format competition",
+    "mandatory q3 tyre specification",
+    "q3",
+    "dry-weather tyre",
+    "in-competition tyre evaluation",
+    "tyre"
+   ]
+  },
+  {
+   "clause_id": "B6.1.3",
+   "entities": [
+    "tyre",
+    "fia",
+    "tyre supplier",
+    "fia-f1-doc-062",
+    "competitor",
+    "competition",
+    "f1 car",
+    "fia grade 1 circuit",
+    "rim manufacturer"
+   ]
+  },
+  {
+   "clause_id": "B6.2.1",
+   "entities": [
+    "steward",
+    "tyre",
+    "competition",
+    "technical delegate",
+    "tyre allocation"
+   ]
+  },
+  {
+   "clause_id": "B6.2.2",
+   "entities": [
+    "tyre set",
+    "tyre"
+   ]
+  },
+  {
+   "clause_id": "B6.2.3",
+   "entities": [
+    "technical delegate",
+    "tyre set",
+    "driver",
+    "tyre supplier",
+    "competition",
+    "tyre allocation"
+   ]
+  },
+  {
+   "clause_id": "B6.2.4",
+   "entities": [
+    "fia",
+    "tyre supplier",
+    "competition",
+    "tyre set",
+    "driver",
+    "tyre allocation",
+    "standard format competition",
+    "alternative format competition",
+    "in-competition tyre testing",
+    "dry-weather tyre",
+    "hard tyre",
+    "medium tyre",
+    "soft tyre",
+    "intermediate tyre",
+    "wet-weather tyre"
+   ]
+  },
+  {
+   "clause_id": "B6.2.5",
+   "entities": [
+    "tyre",
+    "competition",
+    "grid place penalty",
+    "disqualification",
+    "race"
+   ]
+  },
+  {
+   "clause_id": "B6.2.6",
+   "entities": [
+    "competition",
+    "technical delegate",
+    "tyre",
+    "competitor",
+    "driver",
+    "tyre supplier"
+   ]
+  },
+  {
+   "clause_id": "B6.2.7",
+   "entities": [
+    "competitor",
+    "tyre",
+    "technical delegate"
+   ]
+  },
+  {
+   "clause_id": "B6.3.1",
+   "entities": [
+    "tyre set",
+    "competition",
+    "driver",
+    "unallocated tyre use",
+    "total time classified session",
+    "control line",
+    "pit lane",
+    "stop-and-go penalty",
+    "race"
+   ]
+  },
+  {
+   "clause_id": "B6.3.2",
+   "entities": [
+    "tyre",
+    "pit lane",
+    "f1 car",
+    "transponder",
+    "starting grid"
+   ]
+  },
+  {
+   "clause_id": "B6.3.3",
+   "entities": [
+    "tyre set",
+    "fia",
+    "qualifying"
+   ]
+  },
+  {
+   "clause_id": "B6.3.4",
+   "entities": [
+    "tyre set",
+    "driver",
+    "competition",
+    "standard format competition",
+    "alternative format competition",
+    "in-competition tyre testing",
+    "dry-weather tyre",
+    "intermediate tyre",
+    "wet-weather tyre",
+    "additional driver",
+    "replacement driver"
+   ]
+  },
+  {
+   "clause_id": "B6.3.5",
+   "entities": [
+    "free practice",
+    "intermediate tyre",
+    "wet-weather tyre",
+    "wet track declaration",
+    "race director",
+    "dry-weather tyre"
+   ]
+  },
+  {
+   "clause_id": "B6.3.6",
+   "entities": [
+    "driver",
+    "intermediate tyre",
+    "wet-weather tyre",
+    "race",
+    "dry-weather tyre",
+    "mandatory race tyre specification",
+    "mandatory tyre specification breach",
+    "disqualification",
+    "suspension",
+    "time penalty"
+   ]
+  },
+  {
+   "clause_id": "B6.3.7",
+   "entities": [
+    "formation lap behind safety car",
+    "total time classified session",
+    "resumption procedure",
+    "wet-weather tyre",
+    "safety car orange lights",
+    "safety car",
+    "pit lane",
+    "stop-and-go penalty",
+    "driver",
+    "tyre"
+   ]
+  },
+  {
+   "clause_id": "B6.3.8",
+   "entities": [
+    "standard format competition",
+    "dry-weather tyre",
+    "in-competition tyre testing",
+    "tyre set",
+    "driver",
+    "mandatory q3 tyre specification",
+    "q3",
+    "sealing of cars",
+    "mandatory race tyre specification",
+    "race",
+    "tyre return",
+    "fp1",
+    "fp2",
+    "fp3",
+    "wet track declaration",
+    "intermediate tyre",
+    "wet-weather tyre"
+   ]
+  },
+  {
+   "clause_id": "B6.3.9",
+   "entities": [
+    "alternative format competition",
+    "dry-weather tyre",
+    "tyre set",
+    "driver",
+    "tyre return",
+    "fp1",
+    "sprint",
+    "sealing of cars",
+    "qualifying",
+    "sprint qualifying",
+    "sq1",
+    "sq2",
+    "sq3",
+    "medium tyre",
+    "soft tyre",
+    "intermediate tyre",
+    "wet-weather tyre",
+    "wet track declaration",
+    "pit lane exit",
+    "race"
+   ]
+  },
+  {
+   "clause_id": "B6.3.10",
+   "entities": [
+    "standard format competition",
+    "in-competition tyre testing",
+    "dry-weather tyre",
+    "tyre set",
+    "driver",
+    "mandatory q3 tyre specification",
+    "q3",
+    "sealing of cars",
+    "mandatory race tyre specification",
+    "race",
+    "tyre return",
+    "fp1",
+    "fp2",
+    "fp3",
+    "medium tyre",
+    "wet track declaration",
+    "intermediate tyre",
+    "wet-weather tyre"
+   ]
+  },
+  {
+   "clause_id": "B6.4.1",
+   "entities": [
+    "tyre return",
+    "fia race team client",
+    "fia",
+    "competitor"
+   ]
+  },
+  {
+   "clause_id": "B6.4.2",
+   "entities": [
+    "tyre set",
+    "tyre return",
+    "tyre supplier"
+   ]
+  },
+  {
+   "clause_id": "B6.4.3",
+   "entities": [
+    "tyre",
+    "tyre return",
+    "tyre supplier",
+    "driver",
+    "competition"
+   ]
+  },
+  {
+   "clause_id": "B6.5.1",
+   "entities": [
+    "dry-weather tyre",
+    "intermediate tyre",
+    "wet-weather tyre",
+    "tyre allocation",
+    "standard format competition",
+    "in-competition tyre evaluation",
+    "tyre set",
+    "driver"
+   ]
+  },
+  {
+   "clause_id": "B6.5.2",
+   "entities": [
+    "driver",
+    "fp1",
+    "fp2",
+    "in-competition tyre evaluation",
+    "tyre"
+   ]
+  },
+  {
+   "clause_id": "B6.5.3",
+   "entities": [
+    "in-competition tyre evaluation",
+    "tyre return",
+    "fp2"
+   ]
+  },
+  {
+   "clause_id": "B6.6.1",
+   "entities": [
+    "dry-weather tyre",
+    "tyre allocation",
+    "standard format competition",
+    "in-competition tyre testing",
+    "tyre set",
+    "driver"
+   ]
+  },
+  {
+   "clause_id": "B6.6.2",
+   "entities": [
+    "in-competition tyre testing",
+    "dry-weather tyre",
+    "driver",
+    "fp2",
+    "competition",
+    "fia"
+   ]
+  },
+  {
+   "clause_id": "B6.6.3",
+   "entities": [
+    "in-competition tyre testing",
+    "wet track declaration",
+    "driver",
+    "fp2",
+    "tyre supplier",
+    "dry-weather tyre"
+   ]
+  },
+  {
+   "clause_id": "B6.6.4",
+   "entities": [
+    "driver",
+    "in-competition tyre testing",
+    "super licence",
+    "competition"
+   ]
+  },
+  {
+   "clause_id": "B6.6.5",
+   "entities": [
+    "f1 car",
+    "tyre supplier",
+    "fia",
+    "tyre",
+    "competition",
+    "testing of current car",
+    "in-competition tyre testing"
+   ]
+  },
+  {
+   "clause_id": "B6.6.6",
+   "entities": [
+    "f1 car",
+    "tyre supplier",
+    "fia",
+    "competitor",
+    "tyre",
+    "in-competition tyre testing"
+   ]
+  },
+  {
+   "clause_id": "B6.6.7",
+   "entities": [
+    "in-competition tyre testing",
+    "tyre return",
+    "fp2"
+   ]
+  }
+ ],
+ "relationships": [
+  {
+   "subject": "fia",
+   "relation": "APPOINTS",
+   "object": "tyre supplier",
+   "context": "single tyre manufacturer",
+   "source_ids": [
+    "B6.1.1"
+   ]
+  },
+  {
+   "subject": "tyre supplier",
+   "relation": "ALLOCATES",
+   "object": "dry-weather tyre",
+   "context": "three specifications per Competition, visibly distinguishable",
+   "source_ids": [
+    "B6.1.1"
+   ]
+  },
+  {
+   "subject": "tyre supplier",
+   "relation": "ALLOCATES",
+   "object": "intermediate tyre",
+   "context": "one specification per Competition",
+   "source_ids": [
+    "B6.1.1"
+   ]
+  },
+  {
+   "subject": "tyre supplier",
+   "relation": "ALLOCATES",
+   "object": "wet-weather tyre",
+   "context": "one specification per Competition",
+   "source_ids": [
+    "B6.1.1"
+   ]
+  },
+  {
+   "subject": "standard format competition",
+   "relation": "HAS_PART",
+   "object": "in-competition tyre evaluation",
+   "context": "at certain SFCs: one extra dry, intermediate or wet specification for evaluation",
+   "source_ids": [
+    "B6.1.1"
+   ]
+  },
+  {
+   "subject": "standard format competition",
+   "relation": "HAS_PART",
+   "object": "in-competition tyre testing",
+   "context": "at most two SFCs (a third if one is unsuitable): extra dry specifications for testing",
+   "source_ids": [
+    "B6.1.1"
+   ]
+  },
+  {
+   "subject": "fia",
+   "relation": "CONTROLS",
+   "object": "mandatory race tyre specification",
+   "context": "announced 2 weeks before the Competition; up to two specifications",
+   "source_ids": [
+    "B6.1.2"
+   ]
+  },
+  {
+   "subject": "fia",
+   "relation": "CONTROLS",
+   "object": "mandatory q3 tyre specification",
+   "context": "SFC only; announced 2 weeks before; always the softest of the three specifications",
+   "source_ids": [
+    "B6.1.2"
+   ]
+  },
+  {
+   "subject": "fia",
+   "relation": "CONTROLS",
+   "object": "in-competition tyre testing",
+   "context": "announced 4 weeks before, with quantities and run plans",
+   "source_ids": [
+    "B6.1.2"
+   ]
+  },
+  {
+   "subject": "fia",
+   "relation": "CONTROLS",
+   "object": "in-competition tyre evaluation",
+   "context": "announced 1 week before",
+   "source_ids": [
+    "B6.1.2"
+   ]
+  },
+  {
+   "subject": "mandatory race tyre specification",
+   "relation": "TYPE_OF",
+   "object": "dry-weather tyre",
+   "context": null,
+   "source_ids": [
+    "B6.1.2"
+   ]
+  },
+  {
+   "subject": "mandatory q3 tyre specification",
+   "relation": "TYPE_OF",
+   "object": "dry-weather tyre",
+   "context": null,
+   "source_ids": [
+    "B6.1.2"
+   ]
+  },
+  {
+   "subject": "tyre",
+   "relation": "DEFINED_IN",
+   "object": "fia-f1-doc-062",
+   "context": "operated per FIA and Tyre Supplier prescriptions; not used on other rigs, simulators or vehicles",
+   "source_ids": [
+    "B6.1.3"
+   ]
+  },
+  {
+   "subject": "technical delegate",
+   "relation": "CONTROLS",
+   "object": "tyre allocation",
+   "context": "all tyres presented before the Competition, except force majeure accepted by the stewards",
+   "source_ids": [
+    "B6.2.1"
+   ]
+  },
+  {
+   "subject": "tyre set",
+   "relation": "HAS_PART",
+   "object": "tyre",
+   "context": "two front and two rear of the same specification",
+   "source_ids": [
+    "B6.2.2"
+   ]
+  },
+  {
+   "subject": "technical delegate",
+   "relation": "ALLOCATES",
+   "object": "tyre set",
+   "context": "to each driver from the Tyre Supplier's stock",
+   "source_ids": [
+    "B6.2.3"
+   ]
+  },
+  {
+   "subject": "tyre allocation",
+   "relation": "APPLIES_DURING",
+   "object": "standard format competition",
+   "context": "sets per driver of each specification depend on the format (table in B6.2.4)",
+   "source_ids": [
+    "B6.2.4"
+   ]
+  },
+  {
+   "subject": "tyre allocation",
+   "relation": "APPLIES_DURING",
+   "object": "alternative format competition",
+   "context": "sets per driver of each specification depend on the format (table in B6.2.4)",
+   "source_ids": [
+    "B6.2.4"
+   ]
+  },
+  {
+   "subject": "tyre allocation",
+   "relation": "APPLIES_DURING",
+   "object": "in-competition tyre testing",
+   "context": "sets per driver of each specification depend on the format (table in B6.2.4)",
+   "source_ids": [
+    "B6.2.4"
+   ]
+  },
+  {
+   "subject": "grid place penalty",
+   "relation": "APPLIES_DURING",
+   "object": "race",
+   "context": "using tyres without the unique sidewall identification",
+   "source_ids": [
+    "B6.2.5"
+   ]
+  },
+  {
+   "subject": "disqualification",
+   "relation": "APPLIES_DURING",
+   "object": "race",
+   "context": "using tyres without the unique sidewall identification",
+   "source_ids": [
+    "B6.2.5"
+   ]
+  },
+  {
+   "subject": "technical delegate",
+   "relation": "CONTROLS",
+   "object": "tyre",
+   "context": "may pick alternative tyres for any Competitor from the supplier's stock at any time",
+   "source_ids": [
+    "B6.2.6"
+   ]
+  },
+  {
+   "subject": "technical delegate",
+   "relation": "CONTROLS",
+   "object": "tyre",
+   "context": "swapping an unused tyre for an identical one requires presenting both",
+   "source_ids": [
+    "B6.2.7"
+   ]
+  },
+  {
+   "subject": "unallocated tyre use",
+   "relation": "PUNISHABLE_BY",
+   "object": "stop-and-go penalty",
+   "context": "during a TTCS, if the tyres are not changed within two crossings of the control line",
+   "source_ids": [
+    "B6.3.1"
+   ]
+  },
+  {
+   "subject": "unallocated tyre use",
+   "relation": "APPLIES_DURING",
+   "object": "total time classified session",
+   "context": null,
+   "source_ids": [
+    "B6.3.1"
+   ]
+  },
+  {
+   "subject": "tyre set",
+   "relation": "APPLIES_DURING",
+   "object": "qualifying",
+   "context": "used as complete sets; sets of the same specification may be mixed after Qualifying",
+   "source_ids": [
+    "B6.3.3"
+   ]
+  },
+  {
+   "subject": "additional driver",
+   "relation": "REQUIRES",
+   "object": "tyre set",
+   "context": "must use the tyres allocated to the nominated driver they replace",
+   "source_ids": [
+    "B6.3.4"
+   ]
+  },
+  {
+   "subject": "replacement driver",
+   "relation": "REQUIRES",
+   "object": "tyre set",
+   "context": "must use the tyres allocated to the nominated driver they replace",
+   "source_ids": [
+    "B6.3.4"
+   ]
+  },
+  {
+   "subject": "intermediate tyre",
+   "relation": "APPLIES_DURING",
+   "object": "free practice",
+   "context": "only after the track is declared wet",
+   "source_ids": [
+    "B6.3.5"
+   ]
+  },
+  {
+   "subject": "wet-weather tyre",
+   "relation": "APPLIES_DURING",
+   "object": "free practice",
+   "context": "only after the track is declared wet",
+   "source_ids": [
+    "B6.3.5"
+   ]
+  },
+  {
+   "subject": "race director",
+   "relation": "CONTROLS",
+   "object": "wet track declaration",
+   "context": null,
+   "source_ids": [
+    "B6.3.5"
+   ]
+  },
+  {
+   "subject": "race",
+   "relation": "REQUIRES",
+   "object": "dry-weather tyre",
+   "context": "at least two different dry specifications unless intermediate or wet tyres were used",
+   "source_ids": [
+    "B6.3.6"
+   ]
+  },
+  {
+   "subject": "race",
+   "relation": "REQUIRES",
+   "object": "mandatory race tyre specification",
+   "context": "at least one of the dry specifications used must be a mandatory one",
+   "source_ids": [
+    "B6.3.6"
+   ]
+  },
+  {
+   "subject": "mandatory tyre specification breach",
+   "relation": "PUNISHABLE_BY",
+   "object": "disqualification",
+   "context": "from the Race results",
+   "source_ids": [
+    "B6.3.6"
+   ]
+  },
+  {
+   "subject": "mandatory tyre specification breach",
+   "relation": "PUNISHABLE_BY",
+   "object": "time penalty",
+   "context": "30 s added if the Race is suspended and not restarted",
+   "source_ids": [
+    "B6.3.6"
+   ]
+  },
+  {
+   "subject": "formation lap behind safety car",
+   "relation": "REQUIRES",
+   "object": "wet-weather tyre",
+   "context": "when mandated: compulsory until the safety car's orange lights go out and it returns to the pit lane",
+   "source_ids": [
+    "B6.3.7"
+   ]
+  },
+  {
+   "subject": "resumption procedure",
+   "relation": "REQUIRES",
+   "object": "wet-weather tyre",
+   "context": "when mandated at the ten minute signal: compulsory until the safety car returns to the pit lane",
+   "source_ids": [
+    "B6.3.7"
+   ]
+  },
+  {
+   "subject": "stop-and-go penalty",
+   "relation": "APPLIES_DURING",
+   "object": "formation lap behind safety car",
+   "context": "tyres changed to another specification while the safety car is on track",
+   "source_ids": [
+    "B6.3.7"
+   ]
+  },
+  {
+   "subject": "stop-and-go penalty",
+   "relation": "APPLIES_DURING",
+   "object": "resumption procedure",
+   "context": "tyres changed to another specification while the safety car is on track",
+   "source_ids": [
+    "B6.3.7"
+   ]
+  },
+  {
+   "subject": "mandatory q3 tyre specification",
+   "relation": "APPLIES_DURING",
+   "object": "q3",
+   "context": "SFC: one set may not be used or returned before Q3; Q3 cars return one set of it by covers-on time",
+   "source_ids": [
+    "B6.3.8"
+   ]
+  },
+  {
+   "subject": "mandatory race tyre specification",
+   "relation": "APPLIES_DURING",
+   "object": "race",
+   "context": "two sets may not be returned before the Race (one of each if two specifications)",
+   "source_ids": [
+    "B6.3.8"
+   ]
+  },
+  {
+   "subject": "tyre return",
+   "relation": "APPLIES_DURING",
+   "object": "standard format competition",
+   "context": "no ICTT: two dry sets returned within 2 h after FP1, two after FP2, two after FP3",
+   "source_ids": [
+    "B6.3.8"
+   ]
+  },
+  {
+   "subject": "intermediate tyre",
+   "relation": "APPLIES_DURING",
+   "object": "standard format competition",
+   "context": "if FP1, FP2 or FP3 is declared wet, one intermediate set returned within 2 h after FP3",
+   "source_ids": [
+    "B6.3.8"
+   ]
+  },
+  {
+   "subject": "tyre return",
+   "relation": "APPLIES_DURING",
+   "object": "alternative format competition",
+   "context": "one dry set after FP1, one after the Sprint (the set with most Sprint laps), three by covers-on after Qualifying",
+   "source_ids": [
+    "B6.3.9"
+   ]
+  },
+  {
+   "subject": "medium tyre",
+   "relation": "APPLIES_DURING",
+   "object": "sq1",
+   "context": "up to one new set in each period",
+   "source_ids": [
+    "B6.3.9"
+   ]
+  },
+  {
+   "subject": "medium tyre",
+   "relation": "APPLIES_DURING",
+   "object": "sq2",
+   "context": "up to one new set in each period",
+   "source_ids": [
+    "B6.3.9"
+   ]
+  },
+  {
+   "subject": "soft tyre",
+   "relation": "APPLIES_DURING",
+   "object": "sq3",
+   "context": "up to one set",
+   "source_ids": [
+    "B6.3.9"
+   ]
+  },
+  {
+   "subject": "intermediate tyre",
+   "relation": "APPLIES_DURING",
+   "object": "alternative format competition",
+   "context": "max one extra set if FP1 or Sprint Qualifying is declared wet, or if the driver used intermediates in the Sprint",
+   "source_ids": [
+    "B6.3.9"
+   ]
+  },
+  {
+   "subject": "tyre return",
+   "relation": "APPLIES_DURING",
+   "object": "in-competition tyre testing",
+   "context": "SFC with ICTT: one dry set after FP1, a medium set kept for FP2 plus one more returned after FP2, two after FP3",
+   "source_ids": [
+    "B6.3.10"
+   ]
+  },
+  {
+   "subject": "mandatory q3 tyre specification",
+   "relation": "APPLIES_DURING",
+   "object": "q3",
+   "context": "SFC with ICTT: one set may not be used or returned before Q3",
+   "source_ids": [
+    "B6.3.10"
+   ]
+  },
+  {
+   "subject": "mandatory race tyre specification",
+   "relation": "APPLIES_DURING",
+   "object": "race",
+   "context": "SFC with ICTT: two sets may not be returned before the Race",
+   "source_ids": [
+    "B6.3.10"
+   ]
+  },
+  {
+   "subject": "intermediate tyre",
+   "relation": "APPLIES_DURING",
+   "object": "in-competition tyre testing",
+   "context": "if FP1, FP2 or FP3 is declared wet, one intermediate set returned within 2 h after FP3",
+   "source_ids": [
+    "B6.3.10"
+   ]
+  },
+  {
+   "subject": "tyre return",
+   "relation": "REQUIRES",
+   "object": "fia race team client",
+   "context": "electronic return; CSV by email if the system fails",
+   "source_ids": [
+    "B6.4.1"
+   ]
+  },
+  {
+   "subject": "tyre return",
+   "relation": "REQUIRES",
+   "object": "tyre set",
+   "context": "returned sets must also be physically returned to the Tyre Supplier before the next session",
+   "source_ids": [
+    "B6.4.2"
+   ]
+  },
+  {
+   "subject": "tyre supplier",
+   "relation": "CONTROLS",
+   "object": "tyre return",
+   "context": "publishes each driver's remaining tyres after each day",
+   "source_ids": [
+    "B6.4.3"
+   ]
+  },
+  {
+   "subject": "tyre allocation",
+   "relation": "APPLIES_DURING",
+   "object": "in-competition tyre evaluation",
+   "context": "max two sets of an extra evaluation specification per driver",
+   "source_ids": [
+    "B6.5.1"
+   ]
+  },
+  {
+   "subject": "tyre",
+   "relation": "APPLIES_DURING",
+   "object": "fp1",
+   "context": "ICTE tyres may be used",
+   "source_ids": [
+    "B6.5.2"
+   ]
+  },
+  {
+   "subject": "tyre",
+   "relation": "APPLIES_DURING",
+   "object": "fp2",
+   "context": "ICTE tyres may be used",
+   "source_ids": [
+    "B6.5.2"
+   ]
+  },
+  {
+   "subject": "tyre return",
+   "relation": "APPLIES_DURING",
+   "object": "in-competition tyre evaluation",
+   "context": "all ICTE tyres returned within 2 h after FP2",
+   "source_ids": [
+    "B6.5.3"
+   ]
+  },
+  {
+   "subject": "tyre allocation",
+   "relation": "APPLIES_DURING",
+   "object": "in-competition tyre testing",
+   "context": "extra sets of a test dry specification per driver",
+   "source_ids": [
+    "B6.6.1"
+   ]
+  },
+  {
+   "subject": "dry-weather tyre",
+   "relation": "APPLIES_DURING",
+   "object": "fp2",
+   "context": "ICTT test tyres must be used in FP2; moved to a back-up Competition if FP2 is unsuitable",
+   "source_ids": [
+    "B6.6.2"
+   ]
+  },
+  {
+   "subject": "tyre supplier",
+   "relation": "CONTROLS",
+   "object": "in-competition tyre testing",
+   "context": "drivers follow its run plans in FP2; only ICTT dry tyres may be used in FP2 unless declared wet",
+   "source_ids": [
+    "B6.6.3"
+   ]
+  },
+  {
+   "subject": "in-competition tyre testing",
+   "relation": "REQUIRES",
+   "object": "super licence",
+   "context": "drivers eligible for a Full Super Licence with at least one F1 Competition",
+   "source_ids": [
+    "B6.6.4"
+   ]
+  },
+  {
+   "subject": "fia",
+   "relation": "CONTROLS",
+   "object": "f1 car",
+   "context": "ICTT: component and software changes need FIA approval; car stays in a fixed specification",
+   "source_ids": [
+    "B6.6.5"
+   ]
+  },
+  {
+   "subject": "tyre supplier",
+   "relation": "CONTROLS",
+   "object": "f1 car",
+   "context": "ICTT: set-up and driver control changes agreed in advance with the Tyre Supplier",
+   "source_ids": [
+    "B6.6.5"
+   ]
+  },
+  {
+   "subject": "tyre supplier",
+   "relation": "CONTROLS",
+   "object": "in-competition tyre testing",
+   "context": "extra sensors agreed with the Tyre Supplier and the FIA; data shared with the supplier, may be passed on anonymised",
+   "source_ids": [
+    "B6.6.6"
+   ]
+  },
+  {
+   "subject": "tyre return",
+   "relation": "APPLIES_DURING",
+   "object": "in-competition tyre testing",
+   "context": "all ICTT tyres returned within 2 h after FP2",
+   "source_ids": [
+    "B6.6.7"
+   ]
+  }
+ ]
+}
